@@ -1,15 +1,11 @@
 .PHONY: markdown
-markdown: README.md
+markdown: emojigo.md dictionary.md
 
 .PHONY: html
 html:
 	mkdir -p html
 	$(MAKE) -C src html
 	cp src/*.html html
-
-README.md:
-	$(MAKE) -C src emojigo.md
-	cp src/emojigo.md README.md
 
 %.md:
 	$(MAKE) -C src $@

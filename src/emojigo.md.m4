@@ -1,58 +1,34 @@
-include(compounds.m4)dnl
+include(morphemes.m4)dnl
 ## Simple Sentences ##
 
-**Vocabulary:**
-
-| EMOJIGO | English |
-|---------|---------|
-| SPEAK | to speak |
-| MOVE | to move |
-| MEAT | meat |
-| FAST | fast |
-
-A minimal sentence in EMOJIGO consits of a single word.
+A minimal sentence in Emojigo consits of a single word.
 For verbs this kind of sentence means that someone or something is performing an action.
 
-| EMOJIGO | English |
+| Emojigo | English |
 |---------|---------|
 | SPEAK | (I) speak. |
 | MOVE | (Someone) goes. |
 
 For nouns and adjectives, this kind of sentence states their being:
 
-| EMOJIGO | English |
+| Emojigo | English |
 |---------|---------|
 | MEAT | (It is) meat. |
 | FAST | (He is) fast. |
 
 
-**Vocabulary:**
+## Particles ##
 
-| EMOJIGO | English |
-|---------|---------|
-| EAT | to eat |
-| HEAR | to hear, to listen |
-| PERSON | person |
-| BOOK | book |
-| HOUSE | house |
-| FAMILY | family |
-| MUSIC | music |
-| MAN | man |
-| SCHOOL | school |
-
-
-In EMOJIGO, a sentence always consists of a verb followed by phrases which describe the way the action is performed.
+In Emojigo, a sentence always consists of a verb followed by phrases which describe the way the action is performed.
 The role of these phrases is indicated by a so called _particle_, a character preceding the phrase.
 
-
-## Particles ##
 
 ### Subjects and Objects ###
 
 The subject of a sentence is marked by the SUBJ particle.
 Similarly, the object of a sentence is indicated through the OBJ particle.
 
-| EMOJIGO | English |
+| Emojigo | English |
 |---------|---------|
 | EAT SUBJ PERSON OBJ MEAT | The person eats meat. |
 | HEAR OBJ MUSIC SUBJ FAMILY | The family listens to music. |
@@ -61,9 +37,10 @@ Similarly, the object of a sentence is indicated through the OBJ particle.
 As can be seen, there is no fixed order in which the subject and object have to appear.
 For some verbs, OBJ can also be followed by a sentence:
 
-| EMOJIGO | English |
+| Emojigo | English |
 |---------|---------|
 | LIKE SUBJ MAN OBJ HEAR OBJ MUSIC | The man likes to listen to music. |
+| THINK OBJ CAN OBJ MOVE | (I) think I can go. |
 
 
 ### Destinations and Origins ###
@@ -71,26 +48,27 @@ For some verbs, OBJ can also be followed by a sentence:
 The destination and origin of a movement is marked by the FROM and TO particles respecively.
 In this case, FROM or TO have to be followed by a noun phrase.
 
-| EMOJIGO | English |
+| Emojigo | English |
 |---------|---------|
 | MOVE TO SCHOOL SUBJ PERSON | The person goes to school. |
 | MOVE FROM GERMANY TO FRANCE | (He) goes from Germany to France. |
 
 If followed by a sentence, FROM and TO are used to supply explanations and motivations.
-TODO explain which to use when.
+They can be 
 
-| EMOJIGO | English |
+| Emojigo | English |
 |---------|---------|
 | MOVE TO HOUSE FROM COLD | (I) go home, because it is cold |
+| SEE OBJ BOOK TO KNOW OBJ MUSIC | (I) read a book in order to learn about music. |
 
 
 ### Context ###
 
 The context particle CONTEXT gives further information on the circumstances under which an action is performed.
-This can include the place or time at which the action takes place.
+This can include the place or time at which the action takes place or the tools which are used to perform an action.
 If CONTEXT is followed by a sentence, the action in the main sentence is assumed to take place at the same time as the sentence in the subordinate clause.
 
-| EMOJIGO | English |
+| Emojigo | English |
 |---------|---------|
 | SEE OBJ BOOK CONTEXT SCHOOL | (I) read a book in school. |
 | SEE OBJ BOOK CONTEXT MOVE TO SCHOOL | (I) read a book on while I go to school. |
@@ -99,46 +77,32 @@ If CONTEXT is followed by a sentence, the action in the main sentence is assumed
 
 ## Adjectives and Adverbs ##
 
-**Vocabulary:**
-
-| EMOJIGO | English |
-|---------|---------|
-| CAR | car |
-| HEAVY | heavy |
-| BOOK | book |
-
 To make a description of the from _X has property Y_ or _X is Y_, The adjective _Y_ takes the role of the sentence's verb.
 
-| EMOJIGO | English |
+| Emojigo | English |
 |---------|---------|
 | FAST SUBJ CAR | The car is fast. |
 | HEAVY SUBJ BOOK | The book is heavy. |
 
 Adjectives can also be used to modify nouns by suffixing a noun phrase with the adjective.
 
-| EMOJIGO | English |
+| Emojigo | English |
 |---------|---------|
 | CAR FAST | a fast car |
 
 Every adjective can also be used as an adverb by placing it after a sentences verb:
 
-| EMOJIGO | English |
+| Emojigo | English |
 |---------|---------|
 | MOVE FAST TO SCHOOL | (I) quickly go to school. |
 
 
 ### Negation ###
 
-**Vocabulary:**
-
-| EMOJIGO | English |
-|---------|---------|
-| HAVE | to have |
-| MONEY | money |
-
 A phrase can be negated by using NOT.
+It can be used both as an adverb and an adjective.
 
-| EMOJIGO | English |
+| Emojigo | English |
 |---------|---------|
 | HEAR NOT | (I am) not listening. |
 | HAVE NOT OBJ MONEY | (I) don't have any money. |
@@ -151,7 +115,7 @@ A phrase can be negated by using NOT.
 
 Noun phrases can be used as an adjective to indicate ownership.
 
-| EMOJIGO | English |
+| Emojigo | English |
 |---------|---------|
 | CAR MAN | The car of the man. |
 
@@ -162,17 +126,20 @@ By default, adjectives are interpreted left associatively.
 Therefore, CAR FAST HEAVY NOT is interpreted as ((CAR FAST) HEAVY) NOT and thus means "something which is not a fast heavy car".
 Similarly, HOUSE PERSON HERE does not mean "my house", but "house which is here and of a person" ((HOUSE PERSON) HERE).
 
-These problems can be solved by using the OF conjuntion.
-Thus, our previous examples can be rewritten as CAR FAST OF HEAVY NOT and HOUSE OF PERSON HERE respectively.
+OF is used to break this left-associativity.
+When two phrases are connected by OF, the phrase right of the OF is evaluated completely before modifying the phras on the left.
 
-(CAR FAST) OF (HEAVY NOT)
+| Emojigo | English |
+|---------|---------|
+| CAR FAST OF HEAVY NOT | a car which is fast and not heavy |
+| HOUSE OF PERSON HERE | my house |
 
 
 ### Past and Future ###
 
 Past and future tense are expressed by the PAST and FUTURE adverbs, which mean "to be done in the past" and "to be done in the future".
 
-| EMOJIGO | English |
+| Emojigo | English |
 |---------|---------|
 | EAT | (I) eat. |
 | HEAR PAST | (I) heard. |
@@ -181,7 +148,7 @@ Past and future tense are expressed by the PAST and FUTURE adverbs, which mean "
 
 PAST and FUTURE can also be used as adjectives meaning "former" and "future":
 
-| EMOJIGO | English |
+| Emojigo | English |
 |---------|---------|
 | LIKE NOT PAST OBJ CAR PAST | I didn't like my former car. |
 
@@ -192,7 +159,7 @@ Lastly, PAST and FUTURE can be used as nouns: TODO
 
 If the verb in a context clause is modified using PAST or FUTURE, it indicates that the action of the context clause took place before, or will take place after the after 
 
-| EMOJIGO | English |
+| Emojigo | English |
 |---------|---------|
 | SEE PAST OBJ BOOK CONTEXT MOVE TO SCHOOL | (I) read a book while I went to school. |
 | SEE PAST OBJ BOOK CONTEXT MOVE PAST TO SCHOOL | (I) read a book after I went to school. |
@@ -204,7 +171,7 @@ If the verb in a context clause is modified using PAST or FUTURE, it indicates t
 To indicate that an action is still continuing at a point in time, the continuous aspect is used.
 It is constructed by adding the PROG adverb to the action which is continuously performed.
 
-| EMOJIGO | English |
+| Emojigo | English |
 |---------|---------|
 | EAT PROG | (I) am eating |
 | HEAR PAST PROG | (I) was hearing |
@@ -221,7 +188,7 @@ CAN
 
 To indicate that you want something, the volition adverb WANT is used.
 
-| EMOJIGO | English |
+| Emojigo | English |
 |---------|---------|
 | THINK SUBJ PERSON HERE OBJ MOVE WANT SUBJ PERSON THERE TO FRANCE | I think that person wants to go to France. |
 
@@ -232,9 +199,9 @@ The words HERE, SOKO and THERE all mark locations relative to the speaker.
 HERE refers to something close to the speaker, similar to the English "here".
 SOKO and THERE both translate to "there" in English, but differ in that SOKO refers to a position close to the listener, and THERE to a point distant from both the speaker and the listener.
 
-HERE, SOKO and THERE often appear in combination with other nouns:
+HERE, SOKO and THERE are often used to modify other nouns:
 
-| EMOJIGO | English |
+| Emojigo | English |
 |---------|---------|
 | PERSON HERE | I |
 | PERSON SOKO | you |
@@ -248,14 +215,14 @@ HERE, SOKO and THERE often appear in combination with other nouns:
 Questions can be formed by using the WHAT.
 As a noun, it translates to "what".
 
-| EMOJIGO | English |
+| Emojigo | English |
 |---------|---------|
 | EAT PROG OBJ WHAT | What are you eating? |
 
 WHAT can also be used as an adjective.
 In these cases, it asks for the kind of the noun it modifies:
 
-| EMOJIGO | English |
+| Emojigo | English |
 |---------|---------|
 | WHAT | what |
 | PERSON WHAT | which person, who |
@@ -267,7 +234,7 @@ In these cases, it asks for the kind of the noun it modifies:
 
 When used as an adverb, WHAT changes the sentence into a yes-no-question:
 
-| EMOJIGO | English |
+| Emojigo | English |
 |---------|---------|
 | MOVE FUTURE WHAT TO SCHOOL | Will you go to school? |
 | LIKE WHAT OBJ PIZZA | Do you like pizza? |
@@ -275,10 +242,10 @@ When used as an adverb, WHAT changes the sentence into a yes-no-question:
 
 ## Relative Sentences ##
 
-In EMOJIGO, whole sentences can be used to modify nouns.
+In Emojigo, whole sentences can be used to modify nouns.
 This is done by suffixing the noun with the sentence.
 
-| EMOJIGO | English |
+| Emojigo | English |
 |---------|---------|
 | HAVE OBJ MONEY | to have money  |
 | SPEAK SUBJ MAN HAVE OBJ MONEY | The rich man speaks. (lit. The man, who has money, speaks.) |
@@ -286,7 +253,7 @@ This is done by suffixing the noun with the sentence.
 
 ## Conjunctions ##
 
-| EMOJIGO | English |
+| Emojigo | English |
 |---------|---------|
 | AND | and |
 | OR | or |

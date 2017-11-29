@@ -1,9 +1,9 @@
 .PHONY: html markdown
-html: emojigo.html
+html: emojigo.html dictionary.html
 markdown: emojigo.md
 
-emojigo.md.m4: compounds.m4
-compounds.m4: morphemes.m4
+emojigo.md.m4: morphemes.m4
+dictionary.md.m4: morphemes.m4
 
 %.md: %.md.m4
 	m4 $< > $@
