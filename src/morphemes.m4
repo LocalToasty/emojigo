@@ -1,80 +1,88 @@
-define(`AND', `:heavy_plus_sign:')dnl
-define(`BAD', `:-1:')dnl
-define(`BEGIN', `:arrow_forward:')dnl
-define(`BIG', `:tokyo_tower:')dnl
-define(`BOOK', `:book:')dnl
-define(`BOY', `:boy:')dnl
-define(`BUT', `:heavy_minus_sign:')dnl
-define(`CAKE', `:cake:')dnl
-define(`CAN', `:hand:')dnl
-define(`CAR', `:car:')dnl
-define(`COLD', `:snowflake:')dnl
-define(`COLOR', `:rainbow:')dnl
-define(`CONTEXT', `:arrow_upper_left:')dnl
-define(`COP', `:cop:')dnl
-define(`COUNTRY', `:japan:')dnl
-define(`DESPITE', `:heavy_division_sign:')dnl
-define(`EAT', `:tongue:')dnl
-define(`FAMILY', `:family:')dnl
-define(`FAST', `:dash:')dnl
-define(`FIRE', `:fire:')dnl
-define(`FRANCE', `:fr:')dnl
-define(`FROM', `:arrow_left:')dnl
-define(`FUN', `:ferris_wheel:')dnl
-define(`FUTURE', `:fast_forward:')dnl
-define(`GERMANY', `:de:')dnl
-define(`GIRL', `:girl:')dnl
-define(`GOOD', `:+1:')dnl
-define(`HAVE', `:fist:')dnl
-define(`HEAR', `:ear:')dnl
-define(`HEAVY', `:anchor:')dnl
-define(`HERE', `:arrow_down:')dnl
-define(`HOUSE', `:house:')dnl
-define(`JAPAN', `:jp:')dnl
-define(`KNOW', `:bow:')dnl
-define(`LIKE', `:heart:')dnl
-define(`LOVE', `:cupid:')dnl
-define(`MAKE', `:raised_hands:')dnl
-define(`MAN', `:man:')dnl
-define(`MANY', `:100:')dnl
-define(`MEAT', `:meat_on_bone:')dnl
-define(`MONEY', `:moneybag:')dnl
-define(`MONKEY', `:monkey:')dnl
-define(`MOON', `:crescent_moon:')dnl
-define(`MOVE', `:running:')dnl
-define(`MOVIE', `:tv:')dnl
-define(`MUSIC', `:notes:')dnl
-define(`NAME', `:name_badge:')dnl
-define(`NOT', `:x:')dnl
-define(`OBJ', `:arrow_lower_right:')dnl
-define(`OF', `:link:')dnl
-define(`OR', `:heavy_multiplication_x:')dnl
-define(`PAST', `:rewind:')dnl
-define(`PERSON', `:bust_in_silhouette:')dnl
-define(`PICTURE', `:flower_playing_cards:')dnl
-define(`PIZZA', `:pizza:')dnl
-define(`PROG', `:left_right_arrow:')dnl
-define(`SCHOOL', `:school:')dnl
-define(`SEARCH', `:mag:')dnl
-define(`SEE', `:eyes:')dnl
-define(`SLOW', `:snail:')dnl
-define(`SOKO', `:arrow_up_down:')dnl
-define(`SPEAK', `:speech_balloon:')dnl
-define(`STATUE', `:statue_of_liberty:')dnl
-define(`STOP', `:no_entry_sign:')dnl
-define(`STRANGE', `:cyclone:')dnl
-define(`STRONG', `:muscle:')dnl
-define(`SUBJ', `:arrow_upper_right:')dnl
-define(`SUN', `:sunny:')dnl
-define(`SYMBOL', `:symbols:')dnl
-define(`THERE', `:arrow_up:')dnl
-define(`THINK', `:thought_balloon:')dnl
-define(`TIME', `:watch:')dnl
-define(`TO', `:arrow_right:')dnl
-define(`TOOL', `:wrench:')dnl
-define(`WANT', `:pray:')dnl
-define(`WATER', `:ocean:')dnl
-define(`WHAT', `:question:')dnl
-define(`WOMAN', `:woman:')dnl
-define(`WRITE', `:pencil2:')dnl
-define(`YES', `:heavy_check_mark:')dnl
+define(`morpheme', `define($1, $2)ifdef(`print', `| `$2' | `$3' |', `dnl')')dnl
+ifdef(`print',
+`## Morphemes ##'
+
+`| Emojigo | English |'
+`|---------|---------|',
+`dnl')
+morpheme(AND, :heavy_plus_sign:, `and, with')
+morpheme(BAD, :-1:, `bad')
+morpheme(BEGIN, :arrow_forward:, `to begin')
+morpheme(BIG, :tokyo_tower:, `big, tall')
+morpheme(BOOK, :book:, `book')
+morpheme(BOY, :boy:, `boy')
+morpheme(BUT, :heavy_minus_sign:, `but, without')
+morpheme(CAKE, :cake:, `cake')
+morpheme(CAN, :hand:, `to be able, ability')
+morpheme(CAR, :car:, `car')
+morpheme(COFFEE, :coffee:, `coffee')
+morpheme(COLD, :snowflake:, `cold, snow, year')
+morpheme(COLOR, :rainbow:, `color, rainbow')
+morpheme(CONTEXT, :arrow_upper_left:, `[context particle]')
+morpheme(COP, :cop:, `policeman, policewoman')
+morpheme(COUNTRY, :japan:, `country')
+morpheme(DESPITE, :heavy_division_sign:, `despite')
+morpheme(EAT, :tongue:, `to eat')
+morpheme(FAMILY, :family:, `family')
+morpheme(FAST, :dash:, `fast')
+morpheme(FIRE, :fire:, `fire, hot')
+morpheme(FRANCE, :fr:, `France, French')
+morpheme(FROM, :arrow_left:, `[origin particle]')
+morpheme(FUN, :ferris_wheel:, `fun, funny, entertaining')
+morpheme(FUTURE, :fast_forward:, `future, later')
+morpheme(GERMANY, :de:, `Germany, German')
+morpheme(GIRL, :girl:, `Girl')
+morpheme(GOOD, :+1:, `good, well')
+morpheme(HAVE, :fist:, `to have, to own')
+morpheme(HEAR, :ear:, `to hear, to listen')
+morpheme(HEAVY, :anchor:, `heavy, sluggish')
+morpheme(HERE, :arrow_down:, `here')
+morpheme(HOUSE, :house:, `house, home')
+morpheme(JAPAN, :jp:, `Japan, Japanese')
+morpheme(KNOW, :bow:, `to know')
+morpheme(LIKE, :heart:, `to like')
+morpheme(LOVE, :cupid:, `to love')
+morpheme(MAKE, :raised_hands:, `to make')
+morpheme(MAN, :man:, `man')
+morpheme(MANY, :100:, `many, often')
+morpheme(MEAT, :meat_on_bone:, `meat')
+morpheme(MONEY, :moneybag:, `money')
+morpheme(MONKEY, :monkey:, `animal, monkey')
+morpheme(MOON, :crescent_moon:, `night')
+morpheme(MOVE, :running:, `to move')
+morpheme(MOVIE, :tv:, `movie, video')
+morpheme(MUSIC, :notes:, `music')
+morpheme(NAME, :name_badge:, `name, word')
+morpheme(NOT, :x:, `not, no')
+morpheme(OBJ, :arrow_lower_right:, `[object particle]')
+morpheme(OF, :link:, `[link particle]')
+morpheme(OR, :heavy_multiplication_x:, `or')
+morpheme(PAST, :rewind:, `past, former, before')
+morpheme(PERSON, :bust_in_silhouette:, `person')
+morpheme(PICTURE, :flower_playing_cards:, `picture')
+morpheme(PIZZA, :pizza:, `pizza')
+morpheme(PROG, :left_right_arrow:, `progressing, in action')
+morpheme(SCHOOL, :school:, `school')
+morpheme(SEARCH, :mag:, `to search, to look for')
+morpheme(SEE, :eyes:, `to see, to watch, to read')
+morpheme(SLOW, :snail:, `slow, snail')
+morpheme(SOKO, :arrow_up_down:, `there (close to listener)')
+morpheme(SPEAK, :speech_balloon:, `to say, to speak')
+morpheme(STATUE, :statue_of_liberty:, `statue')
+morpheme(STOP, :no_entry_sign:, `to stop')
+morpheme(STRANGE, :cyclone:, `strange')
+morpheme(STRONG, :muscle:, `strong')
+morpheme(SUBJ, :arrow_upper_right:, `[subject particle]')
+morpheme(SUN, :sunny:, `day, sun, sunny')
+morpheme(SYMBOL, :symbols:, `symbol')
+morpheme(THERE, :arrow_up:, `there')
+morpheme(THINK, :thought_balloon:, `to think')
+morpheme(TIME, :watch:, `time, hour')
+morpheme(TO, :arrow_right:, `[destination particle]')
+morpheme(TOOL, :wrench:, `tool')
+morpheme(WANT, :pray:, `to want, wanted')
+morpheme(WATER, :ocean:, `water')
+morpheme(WHAT, :question:, `what, what kind of')
+morpheme(WOMAN, :woman:, `woman')
+morpheme(WRITE, :pencil2:, `to write')
+morpheme(YES, :heavy_check_mark:, `yes')

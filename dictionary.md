@@ -1,17 +1,19 @@
+## Morphemes ##
+
 | Emojigo | English |
 |---------|---------|
-| :heavy_plus_sign: | and |
+| :heavy_plus_sign: | and, with |
 | :-1: | bad |
-| :arrow_forward: | begin |
+| :arrow_forward: | to begin |
 | :tokyo_tower: | big, tall |
 | :book: | book |
 | :boy: | boy |
-| :boy: :family: | brother |
-| :heavy_minus_sign: | but |
+| :heavy_minus_sign: | but, without |
 | :cake: | cake |
-| :hand: | to be able |
+| :hand: | to be able, ability |
 | :car: | car |
-| :snowflake: | cold, ice |
+| :coffee: | coffee |
+| :snowflake: | cold, snow, year |
 | :rainbow: | color, rainbow |
 | :arrow_upper_left: | [context particle] |
 | :cop: | policeman, policewoman |
@@ -19,84 +21,90 @@
 | :heavy_division_sign: | despite |
 | :tongue: | to eat |
 | :family: | family |
-| :dash: | fast, quick |
+| :dash: | fast |
 | :fire: | fire, hot |
-| :fr: | French, France |
+| :fr: | France, French |
 | :arrow_left: | [origin particle] |
-| :ferris_wheel: | fun, funny, to have fun |
-| :fast_forward: | future |
-| :de: | German, Germany |
-| :girl: :family: | sister |
-| :girl: | girl |
+| :ferris_wheel: | fun, funny, entertaining |
+| :fast_forward: | future, later |
+| :de: | Germany, German |
+| :girl: | Girl |
 | :+1: | good, well |
 | :fist: | to have, to own |
 | :ear: | to hear, to listen |
-| :anchor: | heavy |
-| :arrow_down: | here, this |
-| :arrow_down: :question: | where, what place |
+| :anchor: | heavy, sluggish |
+| :arrow_down: | here |
 | :house: | house, home |
-| :jp: | Japanese, Japan |
+| :jp: | Japan, Japanese |
 | :bow: | to know |
 | :heart: | to like |
 | :cupid: | to love |
 | :raised_hands: | to make |
-| :man: :family: | father |
 | :man: | man |
 | :100: | many, often |
 | :meat_on_bone: | meat |
 | :moneybag: | money |
 | :monkey: | animal, monkey |
-| :crescent_moon: | night, moon |
-| :running: :arrow_down: | to come |
-| :running: :arrow_up: | to go |
+| :crescent_moon: | night |
 | :running: | to move |
-| :tv: | television, movie |
+| :tv: | movie, video |
 | :notes: | music |
 | :name_badge: | name, word |
-| NEED | need, to require |
-| :x: | not, no, incorrect |
+| :x: | not, no |
 | :arrow_lower_right: | [object particle] |
 | :link: | [link particle] |
 | :heavy_multiplication_x: | or |
-| :rewind: | past, former |
-| :bust_in_silhouette: :-1: | enemy, rival |
-| :bust_in_silhouette: :+1: | friend |
-| :bust_in_silhouette: :arrow_down: | I, myself, me |
+| :rewind: | past, former, before |
 | :bust_in_silhouette: | person |
-| :bust_in_silhouette: :arrow_up_down: | you |
-| :bust_in_silhouette: :arrow_up: | they |
-| :bust_in_silhouette: :question: | who, which person |
-| :flower_playing_cards: | picture, image |
+| :flower_playing_cards: | picture |
 | :pizza: | pizza |
-| :left_right_arrow: | ongoing |
-| :school: :tokyo_tower: | college, university |
+| :left_right_arrow: | progressing, in action |
 | :school: | school |
 | :mag: | to search, to look for |
-| :eyes: | to see, to watch |
+| :eyes: | to see, to watch, to read |
 | :snail: | slow, snail |
-| :arrow_up_down: | there (near listener) |
-| :speech_balloon: | to speak, to say |
+| :arrow_up_down: | there (close to listener) |
+| :speech_balloon: | to say, to speak |
 | :statue_of_liberty: | statue |
 | :no_entry_sign: | to stop |
 | :cyclone: | strange |
 | :muscle: | strong |
 | :arrow_upper_right: | [subject particle] |
 | :sunny: | day, sun, sunny |
-| :sunny: :arrow_down: | today |
-| :sunny: :arrow_up: | tomorrow, that day |
 | :symbols: | symbol |
-| :arrow_up: | there (away from speaker and listener) |
+| :arrow_up: | there |
 | :thought_balloon: | to think |
-| :watch: :arrow_down: | now |
-| :watch: :arrow_up: | then, that time |
-| :watch: | time |
-| :watch: :question: | when, what time |
+| :watch: | time, hour |
 | :arrow_right: | [destination particle] |
 | :wrench: | tool |
 | :pray: | to want, wanted |
 | :ocean: | water |
-| :question: | what, which kind of |
-| :woman: :family: | mother |
+| :question: | what, what kind of |
 | :woman: | woman |
 | :pencil2: | to write |
-| :heavy_check_mark: | yes, correct |
+| :heavy_check_mark: | yes |
+
+
+## Compound Words ##
+
+| Emojigo | English |
+|---------|---------|
+| :girl: :family: | sister |
+| :arrow_down: :question: | where, what place |
+| :man: :family: | father |
+| :man: :family: | father |
+| :running: :arrow_down: | to come |
+| :running: :arrow_up: | to go |
+| :bust_in_silhouette: :-1: | enemy, rival |
+| :bust_in_silhouette: :+1: | friend |
+| :bust_in_silhouette: :arrow_down: | I, myself, me |
+| :bust_in_silhouette: :bust_in_silhouette: :arrow_down: | we |
+| :bust_in_silhouette: :bust_in_silhouette: :arrow_up_down: | you (plural) |
+| :bust_in_silhouette: :bust_in_silhouette: :arrow_up: | they |
+| :bust_in_silhouette: :arrow_up_down: | you |
+| :bust_in_silhouette: :arrow_up: | they |
+| :bust_in_silhouette: :question: | who, which person |
+| :watch: :arrow_down: | now |
+| :watch: :arrow_up: | then, that time |
+| :watch: :question: | when, what time |
+| :woman: :family: | mother |
