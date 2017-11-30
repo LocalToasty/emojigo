@@ -4,20 +4,27 @@ include(morphemes.m4)dnl
 | AND | and |
 | BAD | bad |
 | BEGIN | begin |
+| BIG | big, tall |
 | BOOK | book |
 | BOY | boy |
 | BOY FAMILY | brother |
 | BUT | but |
+| CAKE | cake |
 | CAN | to be able |
 | CAR | car |
 | COLD | cold, ice |
+| COLOR | color, rainbow |
 | CONTEXT | [context particle] |
+| COP | policeman, policewoman |
 | COUNTRY | country |
+| DESPITE | despite |
 | EAT | to eat |
 | FAMILY | family |
-| FAST | fast |
+| FAST | fast, quick |
+| FIRE | fire, hot |
 | FRANCE | French, France |
 | FROM | [origin particle] |
+| FUN | fun, funny, to have fun |
 | FUTURE | future |
 | GERMANY | German, Germany |
 | GIRL FAMILY | sister |
@@ -44,10 +51,12 @@ include(morphemes.m4)dnl
 | MOVE HERE | to come |
 | MOVE THERE | to go |
 | MOVE | to move |
+| MOVIE | television, movie |
 | MUSIC | music |
-| NOT | not |
+| NAME | name, word |
+| NEED | need, to require |
+| NOT | not, no, incorrect |
 | OBJ | [object particle] |
-| WATER | water |
 | OF | [link particle] |
 | OR | or |
 | PAST | past, former |
@@ -60,14 +69,17 @@ include(morphemes.m4)dnl
 | PERSON WHAT | who, which person |
 | PICTURE | picture, image |
 | PIZZA | pizza |
-| PROG | to continue, continuing |
+| PROG | ongoing |
+| SCHOOL BIG | college, university |
 | SCHOOL | school |
 | SEARCH | to search, to look for |
 | SEE | to see, to watch |
+| SLOW | slow, snail |
 | SOKO | there (near listener) |
 | SPEAK | to speak, to say |
 | STATUE | statue |
 | STOP | to stop |
+| STRANGE | strange |
 | STRONG | strong |
 | SUBJ | [subject particle] |
 | SUN | day, sun, sunny |
@@ -83,7 +95,9 @@ include(morphemes.m4)dnl
 | TO | [destination particle] |
 | TOOL | tool |
 | WANT | to want, wanted |
+| WATER | water |
 | WHAT | what, which kind of |
 | WOMAN FAMILY | mother |
 | WOMAN | woman |
 | WRITE | to write |
+| YES | yes, correct |

@@ -40,7 +40,7 @@ For some verbs, OBJ can also be followed by a sentence:
 | Emojigo | English |
 |---------|---------|
 | LIKE SUBJ MAN OBJ HEAR OBJ MUSIC | The man likes to listen to music. |
-| THINK OBJ CAN OBJ MOVE | (I) think I can go. |
+| THINK OBJ LIKE OBJ BOOK | (I) think (he) likes books. |
 
 
 ### Destinations and Origins ###
@@ -89,6 +89,7 @@ Adjectives can also be used to modify nouns by suffixing a noun phrase with the 
 | Emojigo | English |
 |---------|---------|
 | CAR FAST | a fast car |
+| WOMAN STRONG | a strong woman |
 
 Every adjective can also be used as an adverb by placing it after a sentences verb:
 
@@ -106,21 +107,20 @@ It can be used both as an adverb and an adjective.
 |---------|---------|
 | HEAR NOT | (I am) not listening. |
 | HAVE NOT OBJ MONEY | (I) don't have any money. |
-| FAST NOT | slow |
 | HEAVY NOT | light |
 | CAR NOT | a thing which is not a car |
 
 
 ### Ownership ###
 
-Noun phrases can be used as an adjective to indicate ownership.
+A noun phrase can be used as an adjective to indicate ownership.
 
 | Emojigo | English |
 |---------|---------|
 | CAR MAN | The car of the man. |
 
 
-### TODO Linking Multiple Adjectives ###
+### Disambiguating Compound Adjectives ###
 
 By default, adjectives are interpreted left associatively.
 Therefore, CAR FAST HEAVY NOT is interpreted as ((CAR FAST) HEAVY) NOT and thus means "something which is not a fast heavy car".
@@ -135,16 +135,17 @@ When two phrases are connected by OF, the phrase right of the OF is evaluated co
 | HOUSE OF PERSON HERE | my house |
 
 
-### Past and Future ###
+## Past and Future ##
 
 Past and future tense are expressed by the PAST and FUTURE adverbs, which mean "to be done in the past" and "to be done in the future".
 
 | Emojigo | English |
 |---------|---------|
-| EAT | (I) eat. |
-| HEAR PAST | (I) heard. |
-| SPEAK FUTURE | (I) will speak. |
-| MOVE NOT FUTURE | (I) will not go. |
+| EAT | I eat. |
+| HEAR PAST | I heard. |
+| SPEAK FUTURE | I will speak. |
+| MOVE NOT FUTURE | I will not go. |
+| WANT OBJ COP FUTURE | I want to be a policeman. |
 
 PAST and FUTURE can also be used as adjectives meaning "former" and "future":
 
@@ -155,7 +156,7 @@ PAST and FUTURE can also be used as adjectives meaning "former" and "future":
 Lastly, PAST and FUTURE can be used as nouns: TODO
 
 
-#### Past and Future in Context Clauses ####
+### Past and Future in Context Clauses ###
 
 If the verb in a context clause is modified using PAST or FUTURE, it indicates that the action of the context clause took place before, or will take place after the after 
 
@@ -164,33 +165,6 @@ If the verb in a context clause is modified using PAST or FUTURE, it indicates t
 | SEE PAST OBJ BOOK CONTEXT MOVE TO SCHOOL | (I) read a book while I went to school. |
 | SEE PAST OBJ BOOK CONTEXT MOVE PAST TO SCHOOL | (I) read a book after I went to school. |
 | SEE PAST OBJ BOOK CONTEXT MOVE FUTURE TO SCHOOL | (I) read a book before I went to school. |
-
-
-### The Continuous Aspect ###
-
-To indicate that an action is still continuing at a point in time, the continuous aspect is used.
-It is constructed by adding the PROG adverb to the action which is continuously performed.
-
-| Emojigo | English |
-|---------|---------|
-| EAT PROG | (I) am eating |
-| HEAR PAST PROG | (I) was hearing |
-| THINK NOT PAST PROG | (I) wasn't thinking |
-| SPEAK FUTURE PROG | (I) will be speaking |
-
-
-### Potential ###
-
-CAN
-
-
-### Volition ###
-
-To indicate that you want something, the volition adverb WANT is used.
-
-| Emojigo | English |
-|---------|---------|
-| THINK SUBJ PERSON HERE OBJ MOVE WANT SUBJ PERSON THERE TO FRANCE | I think that person wants to go to France. |
 
 
 ## Locations ##
@@ -247,8 +221,8 @@ This is done by suffixing the noun with the sentence.
 
 | Emojigo | English |
 |---------|---------|
-| HAVE OBJ MONEY | to have money  |
 | SPEAK SUBJ MAN HAVE OBJ MONEY | The rich man speaks. (lit. The man, who has money, speaks.) |
+| WOMAN STRONG OF NEED NOT OBJ MAN | a strong woman who doesn't need a man |
 
 
 ## Conjunctions ##
@@ -258,3 +232,35 @@ This is done by suffixing the noun with the sentence.
 | AND | and |
 | OR | or |
 | BUT | but |
+| DESPITE | despite |
+
+Conjunctions can be used to chain multiple sentences together.
+
+| Emojigo | English |
+|---------|---------|
+| MOVE FUTURE TO SCHOOL AND SEE OBJ BOOK | I will go to school and read a book. |
+| CAN OBJ SEE OBJ MOVIE OR HEAR OBJ MUSIC | We can watch TV or listen to music. |
+| MOVE WANT BUT SCHOOL | I want to go, but there is school. |
+
+
+### Linking Noun Phrases ###
+
+AND and OR can also be used to link noun phrases:
+
+| Emojigo | English |
+|---------|---------|
+| MOVE CAN TO FRANCE OR GERMANY | We can go to France or Germany. |
+| LIKE OBJ PIZZA AND CAKE | I like pizza and cake. |
+| SEE PAST SUBJ PERSON GOOD AND PERSON HERE OBJ MOVIE | A friend and I watched a movie. |
+| MOVE WANT TO JAPAN AND FRANCE | I want to go to Japan and to France. |
+
+Another way to express "and" is by repeating the corresponding particle for every noun phrase:
+
+| Emojigo | English |
+|---------|---------|
+| LIKE OBJ PIZZA OBJ CAKE | I like pizza and cake. |
+| SEE PAST SUBJ PERSON GOOD SUBJ PERSON HERE OBJ MOVIE | A friend and I watched a movie. |
+| MOVE WANT TO JAPAN TO FRANCE | I want to go to Japan and to France. |
+
+dnl## Conditional Sentences ##
+dnl## Nominalizing Verbs ##

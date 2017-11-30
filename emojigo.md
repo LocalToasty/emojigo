@@ -39,7 +39,7 @@ For some verbs, :arrow_lower_right: can also be followed by a sentence:
 | Emojigo | English |
 |---------|---------|
 | :heart: :arrow_upper_right: :man: :arrow_lower_right: :ear: :arrow_lower_right: :notes: | The man likes to listen to music. |
-| :thought_balloon: :arrow_lower_right: :hand: :arrow_lower_right: :running: | (I) think I can go. |
+| :thought_balloon: :arrow_lower_right: :heart: :arrow_lower_right: :book: | (I) think (he) likes books. |
 
 
 ### Destinations and Origins ###
@@ -88,6 +88,7 @@ Adjectives can also be used to modify nouns by suffixing a noun phrase with the 
 | Emojigo | English |
 |---------|---------|
 | :car: :dash: | a fast car |
+| :woman: :muscle: | a strong woman |
 
 Every adjective can also be used as an adverb by placing it after a sentences verb:
 
@@ -105,21 +106,20 @@ It can be used both as an adverb and an adjective.
 |---------|---------|
 | :ear: :x: | (I am) not listening. |
 | :fist: :x: :arrow_lower_right: :moneybag: | (I) don't have any money. |
-| :dash: :x: | slow |
 | :anchor: :x: | light |
 | :car: :x: | a thing which is not a car |
 
 
 ### Ownership ###
 
-Noun phrases can be used as an adjective to indicate ownership.
+A noun phrase can be used as an adjective to indicate ownership.
 
 | Emojigo | English |
 |---------|---------|
 | :car: :man: | The car of the man. |
 
 
-### TODO Linking Multiple Adjectives ###
+### Disambiguating Compound Adjectives ###
 
 By default, adjectives are interpreted left associatively.
 Therefore, :car: :dash: :anchor: :x: is interpreted as ((:car: :dash:) :anchor:) :x: and thus means "something which is not a fast heavy car".
@@ -134,16 +134,17 @@ When two phrases are connected by :link:, the phrase right of the :link: is eval
 | :house: :link: :bust_in_silhouette: :arrow_down: | my house |
 
 
-### Past and Future ###
+## Past and Future ##
 
 Past and future tense are expressed by the :rewind: and :fast_forward: adverbs, which mean "to be done in the past" and "to be done in the future".
 
 | Emojigo | English |
 |---------|---------|
-| :tongue: | (I) eat. |
-| :ear: :rewind: | (I) heard. |
-| :speech_balloon: :fast_forward: | (I) will speak. |
-| :running: :x: :fast_forward: | (I) will not go. |
+| :tongue: | I eat. |
+| :ear: :rewind: | I heard. |
+| :speech_balloon: :fast_forward: | I will speak. |
+| :running: :x: :fast_forward: | I will not go. |
+| :pray: :arrow_lower_right: :cop: :fast_forward: | I want to be a policeman. |
 
 :rewind: and :fast_forward: can also be used as adjectives meaning "former" and "future":
 
@@ -154,7 +155,7 @@ Past and future tense are expressed by the :rewind: and :fast_forward: adverbs, 
 Lastly, :rewind: and :fast_forward: can be used as nouns: TODO
 
 
-#### Past and Future in Context Clauses ####
+### Past and Future in Context Clauses ###
 
 If the verb in a context clause is modified using :rewind: or :fast_forward:, it indicates that the action of the context clause took place before, or will take place after the after 
 
@@ -163,33 +164,6 @@ If the verb in a context clause is modified using :rewind: or :fast_forward:, it
 | :eyes: :rewind: :arrow_lower_right: :book: :arrow_upper_left: :running: :arrow_right: :school: | (I) read a book while I went to school. |
 | :eyes: :rewind: :arrow_lower_right: :book: :arrow_upper_left: :running: :rewind: :arrow_right: :school: | (I) read a book after I went to school. |
 | :eyes: :rewind: :arrow_lower_right: :book: :arrow_upper_left: :running: :fast_forward: :arrow_right: :school: | (I) read a book before I went to school. |
-
-
-### The Continuous Aspect ###
-
-To indicate that an action is still continuing at a point in time, the continuous aspect is used.
-It is constructed by adding the :left_right_arrow: adverb to the action which is continuously performed.
-
-| Emojigo | English |
-|---------|---------|
-| :tongue: :left_right_arrow: | (I) am eating |
-| :ear: :rewind: :left_right_arrow: | (I) was hearing |
-| :thought_balloon: :x: :rewind: :left_right_arrow: | (I) wasn't thinking |
-| :speech_balloon: :fast_forward: :left_right_arrow: | (I) will be speaking |
-
-
-### Potential ###
-
-:hand:
-
-
-### Volition ###
-
-To indicate that you want something, the volition adverb :pray: is used.
-
-| Emojigo | English |
-|---------|---------|
-| :thought_balloon: :arrow_upper_right: :bust_in_silhouette: :arrow_down: :arrow_lower_right: :running: :pray: :arrow_upper_right: :bust_in_silhouette: :arrow_up: :arrow_right: :fr: | I think that person wants to go to France. |
 
 
 ## Locations ##
@@ -246,8 +220,8 @@ This is done by suffixing the noun with the sentence.
 
 | Emojigo | English |
 |---------|---------|
-| :fist: :arrow_lower_right: :moneybag: | to have money  |
 | :speech_balloon: :arrow_upper_right: :man: :fist: :arrow_lower_right: :moneybag: | The rich man speaks. (lit. The man, who has money, speaks.) |
+| :woman: :muscle: :link: NEED :x: :arrow_lower_right: :man: | a strong woman who doesn't need a man |
 
 
 ## Conjunctions ##
@@ -257,3 +231,33 @@ This is done by suffixing the noun with the sentence.
 | :heavy_plus_sign: | and |
 | :heavy_multiplication_x: | or |
 | :heavy_minus_sign: | but |
+| :heavy_division_sign: | despite |
+
+Conjunctions can be used to chain multiple sentences together.
+
+| Emojigo | English |
+|---------|---------|
+| :running: :fast_forward: :arrow_right: :school: :heavy_plus_sign: :eyes: :arrow_lower_right: :book: | I will go to school and read a book. |
+| :hand: :arrow_lower_right: :eyes: :arrow_lower_right: :tv: :heavy_multiplication_x: :ear: :arrow_lower_right: :notes: | We can watch TV or listen to music. |
+| :running: :pray: :heavy_minus_sign: :school: | I want to go, but there is school. |
+
+
+### Linking Noun Phrases ###
+
+:heavy_plus_sign: and :heavy_multiplication_x: can also be used to link noun phrases:
+
+| Emojigo | English |
+|---------|---------|
+| :running: :hand: :arrow_right: :fr: :heavy_multiplication_x: :de: | We can go to France or Germany. |
+| :heart: :arrow_lower_right: :pizza: :heavy_plus_sign: :cake: | I like pizza and cake. |
+| :eyes: :rewind: :arrow_upper_right: :bust_in_silhouette: :+1: :heavy_plus_sign: :bust_in_silhouette: :arrow_down: :arrow_lower_right: :tv: | A friend and I watched a movie. |
+| :running: :pray: :arrow_right: :jp: :heavy_plus_sign: :fr: | I want to go to Japan and to France. |
+
+Another way to express "and" is by repeating the corresponding particle for every noun phrase:
+
+| Emojigo | English |
+|---------|---------|
+| :heart: :arrow_lower_right: :pizza: :arrow_lower_right: :cake: | I like pizza and cake. |
+| :eyes: :rewind: :arrow_upper_right: :bust_in_silhouette: :+1: :arrow_upper_right: :bust_in_silhouette: :arrow_down: :arrow_lower_right: :tv: | A friend and I watched a movie. |
+| :running: :pray: :arrow_right: :jp: :arrow_right: :fr: | I want to go to Japan and to France. |
+
