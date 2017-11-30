@@ -207,7 +207,28 @@ The words :arrow_down:, :arrow_up_down: and :arrow_up: all mark locations relati
 | :watch: :arrow_up: | then |
 
 
+<<<<<<< HEAD
 ### 5.1. Questions ###
+=======
+## Pluralization ##
+
+In their plain form, nouns are interpreted to be in their singular form.
+A noun can be pluralized by repeating it.
+If there are adjectives modifying the noun, only the noun itself, i.e. the initial character is repeated.
+
+| Emojigo | English |
+|---------|---------|
+| :woman: :woman: | women |
+| :car: :car: | cars |
+| :car: :car: :dash: | fast cars |
+| :bust_in_silhouette: :bust_in_silhouette: | people |
+| :bust_in_silhouette: :bust_in_silhouette: :arrow_down: | we |
+| :bust_in_silhouette: :bust_in_silhouette: :arrow_up_down: | you (plural) |
+| :bust_in_silhouette: :bust_in_silhouette: :arrow_up: | they |
+
+
+### Questions ###
+>>>>>>> Snapshot
 
 Questions can be formed by using the :question:.
 As a noun, it translates to "what".
@@ -245,7 +266,11 @@ This is done by suffixing the noun with the sentence.
 | Emojigo | English |
 |---------|---------|
 | :speech_balloon: :arrow_upper_right: :man: :fist: :arrow_lower_right: :moneybag: | The rich man speaks. (lit. The man, who has money, speaks.) |
+<<<<<<< HEAD
 | :woman: :muscle: :link: :fist: :punch: :x: :arrow_lower_right: :man: | a strong woman who doesn't need a man |
+=======
+| :woman: :muscle: :link: :fist: MUST :x: :arrow_lower_right: :man: | a strong woman who doesn't need a man |
+>>>>>>> Snapshot
 
 
 ## 7. Conjunctions ##
@@ -273,7 +298,7 @@ Conjunctions can be used to chain multiple sentences together.
 | Emojigo | English |
 |---------|---------|
 | :running: :hand: :arrow_right: :fr: :heavy_multiplication_x: :de: | We can go to France or Germany. |
-| :heart: :arrow_lower_right: :pizza: :heavy_plus_sign: :cake: | I like pizza and cake. |
+| :heart: :arrow_lower_right: :coffee: :heavy_plus_sign: :cake: | I like coffee with cake. |
 | :eyes: :rewind: :arrow_upper_right: :bust_in_silhouette: :+1: :heavy_plus_sign: :bust_in_silhouette: :arrow_down: :arrow_lower_right: :tv: | A friend and I watched a movie. |
 | :running: :pray: :arrow_right: :jp: :heavy_plus_sign: :fr: | I want to go to Japan and to France. |
 
@@ -281,8 +306,14 @@ Another way to express "and" is by repeating the corresponding particle for ever
 
 | Emojigo | English |
 |---------|---------|
-| :heart: :arrow_lower_right: :pizza: :arrow_lower_right: :cake: | I like pizza and cake. |
+| :heart: :arrow_lower_right: :coffee: :arrow_lower_right: :cake: | I like coffee and cake. |
 | :eyes: :rewind: :arrow_upper_right: :bust_in_silhouette: :+1: :arrow_upper_right: :bust_in_silhouette: :arrow_down: :arrow_lower_right: :tv: | A friend and I watched a movie. |
 | :running: :pray: :arrow_right: :jp: :arrow_right: :fr: | I want to go to Japan and to France. |
 
+<<<<<<< HEAD
+=======
+This second way differs from :heavy_plus_sign: in that :heavy_plus_sign: often has the conotation of the linked items standing relation to each other (cf. "together with").
+Therefore it is more natural to say :heart: :arrow_lower_right: :pizza: :arrow_lower_right: :cake: than :heart: :arrow_lower_right: :pizza: :heavy_plus_sign: :cake:, as the second sentence implies eating pizza and cake at the same time.
+
+>>>>>>> Snapshot
 

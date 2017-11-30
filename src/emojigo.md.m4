@@ -188,7 +188,24 @@ HERE, SOKO and THERE are often used to modify other nouns:
 | TIME THERE | then |
 
 
-SUBSECTION(Questions)
+SECTION(Pluralization)
+
+In their plain form, nouns are interpreted to be in their singular form.
+A noun can be pluralized by repeating it.
+If there are adjectives modifying the noun, only the noun itself, i.e. the initial character is repeated.
+
+| Emojigo | English |
+|---------|---------|
+| WOMAN WOMAN | women |
+| CAR CAR | cars |
+| CAR CAR FAST | fast cars |
+| PERSON PERSON | people |
+| PERSON PERSON HERE | we |
+| PERSON PERSON SOKO | you (plural) |
+| PERSON PERSON THERE | they |
+
+
+SECTION(Questions)
 
 Questions can be formed by using the WHAT.
 As a noun, it translates to "what".
@@ -254,7 +271,7 @@ AND and OR can also be used to link noun phrases:
 | Emojigo | English |
 |---------|---------|
 | MOVE CAN TO FRANCE OR GERMANY | We can go to France or Germany. |
-| LIKE OBJ PIZZA AND CAKE | I like pizza and cake. |
+| LIKE OBJ COFFEE AND CAKE | I like coffee with cake. |
 | SEE PAST SUBJ PERSON GOOD AND PERSON HERE OBJ MOVIE | A friend and I watched a movie. |
 | MOVE WANT TO JAPAN AND FRANCE | I want to go to Japan and to France. |
 
@@ -262,10 +279,14 @@ Another way to express "and" is by repeating the corresponding particle for ever
 
 | Emojigo | English |
 |---------|---------|
-| LIKE OBJ PIZZA OBJ CAKE | I like pizza and cake. |
+| LIKE OBJ COFFEE OBJ CAKE | I like coffee and cake. |
 | SEE PAST SUBJ PERSON GOOD SUBJ PERSON HERE OBJ MOVIE | A friend and I watched a movie. |
 | MOVE WANT TO JAPAN TO FRANCE | I want to go to Japan and to France. |
 
+This second way differs from AND in that AND often has the conotation of the linked items standing relation to each other (cf. "together with").
+Therefore it is more natural to say LIKE OBJ PIZZA OBJ CAKE than LIKE OBJ PIZZA AND CAKE, as the second sentence implies eating pizza and cake at the same time.
 
-dnl SECTION(Conditional Sentences)
-dnl SECTION(Nominalizing Verbs)
+
+dnl Conditional Sentences
+dnl Nominalizing Verbs
+dnl learn

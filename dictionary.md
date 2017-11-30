@@ -96,8 +96,8 @@
 | :speech_balloon: :gb: | the English language |
 | :speech_balloon: :fr: | the French language |
 | :girl: :family: | sister |
+| :boy: :family: | brother |
 | :arrow_down: :question: | where, what place |
-| :man: :family: | father |
 | :man: :family: | father |
 | :running: :arrow_down: | to come |
 | :running: :arrow_up: | to go |
