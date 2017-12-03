@@ -27,8 +27,6 @@ The role of these phrases is indicated by a so called _particle_, a character pr
 
 SUBSECTION(Subjects and Objects)
 
-SUBSUBSECTION(foo)
-
 The subject of a sentence is marked by the SUBJ particle.
 Similarly, the object of a sentence is indicated through the OBJ particle.
 
@@ -160,7 +158,7 @@ PAST and FUTURE can also be used as adjectives meaning "former" and "future":
 Lastly, PAST and FUTURE can be used as nouns: TODO
 
 
-SUBSECTION(Past and Future in Context Clauses)
+PARAGRAPH(Past and Future in Context Clauses)
 
 If the verb in a context clause is modified using PAST or FUTURE, it indicates that the action of the context clause took place before, or will take place after the after 
 
@@ -264,9 +262,9 @@ Conjunctions can be used to chain multiple sentences together.
 | MOVE WANT BUT SCHOOL | I want to go, but there is school. |
 
 
-SUBSECTION(Linking Noun Phrases)
+PARAGRAPH(Linking Noun Phrases)
 
-AND and OR can also be used to link noun phrases:
+AND, OR and BUT can also be used to link noun phrases, where BUT is translated as "without":
 
 | Emojigo | English |
 |---------|---------|
@@ -274,6 +272,7 @@ AND and OR can also be used to link noun phrases:
 | LIKE OBJ COFFEE AND CAKE | I like coffee with cake. |
 | SEE PAST SUBJ PERSON GOOD AND PERSON HERE OBJ MOVIE | A friend and I watched a movie. |
 | MOVE WANT TO JAPAN AND FRANCE | I want to go to Japan and to France. |
+| SEE PAST SUBJ PERSON HERE BUT PERSON GOOD OBJ MOVIE | A I watched a movie without my friend. |
 
 Another way to express "and" is by repeating the corresponding particle for every noun phrase:
 

@@ -1,22 +1,20 @@
 ## Table of Contents ##
 
-   1. [Simple Sentences](#1-simple-sentences)
-   2. [Particles](#2-particles)
+1. [Simple Sentences](#1-simple-sentences)
+2. [Particles](#2-particles)
    1. [Subjects and Objects](#21-subjects-and-objects)
-      1. [foo](#211-foo)
    2. [Destinations and Origins](#22-destinations-and-origins)
    3. [Context](#23-context)
-   3. [Adjectives and Adverbs](#3-adjectives-and-adverbs)
+3. [Adjectives and Adverbs](#3-adjectives-and-adverbs)
    1. [Negation](#31-negation)
    2. [Ownership](#32-ownership)
    3. [Disambiguating Compound Adjectives](#33-disambiguating-compound-adjectives)
-   4. [Past and Future](#4-past-and-future)
-   1. [Past and Future in Context Clauses](#41-past-and-future-in-context-clauses)
-   5. [Locations](#5-locations)
-   1. [Questions](#51-questions)
-   6. [Relative Sentences](#6-relative-sentences)
-   7. [Conjunctions](#7-conjunctions)
-   1. [Linking Noun Phrases](#71-linking-noun-phrases)
+4. [Past and Future](#4-past-and-future)
+5. [Locations](#5-locations)
+6. [Pluralization](#6-pluralization)
+7. [Questions](#7-questions)
+8. [Relative Sentences](#8-relative-sentences)
+9. [Conjunctions](#9-conjunctions)
 
 ---
 
@@ -45,8 +43,6 @@ The role of these phrases is indicated by a so called _particle_, a character pr
 
 
 ### 2.1. Subjects and Objects ###
-
-#### 2.1.1. foo ####
 
 The subject of a sentence is marked by the :arrow_upper_right: particle.
 Similarly, the object of a sentence is indicated through the :arrow_lower_right: particle.
@@ -179,7 +175,7 @@ Past and future tense are expressed by the :rewind: and :fast_forward: adverbs, 
 Lastly, :rewind: and :fast_forward: can be used as nouns: TODO
 
 
-### 4.1. Past and Future in Context Clauses ###
+##### Past and Future in Context Clauses #####
 
 If the verb in a context clause is modified using :rewind: or :fast_forward:, it indicates that the action of the context clause took place before, or will take place after the after 
 
@@ -207,10 +203,7 @@ The words :arrow_down:, :arrow_up_down: and :arrow_up: all mark locations relati
 | :watch: :arrow_up: | then |
 
 
-<<<<<<< HEAD
-### 5.1. Questions ###
-=======
-## Pluralization ##
+## 6. Pluralization ##
 
 In their plain form, nouns are interpreted to be in their singular form.
 A noun can be pluralized by repeating it.
@@ -227,8 +220,7 @@ If there are adjectives modifying the noun, only the noun itself, i.e. the initi
 | :bust_in_silhouette: :bust_in_silhouette: :arrow_up: | they |
 
 
-### Questions ###
->>>>>>> Snapshot
+## 7. Questions ##
 
 Questions can be formed by using the :question:.
 As a noun, it translates to "what".
@@ -258,7 +250,7 @@ When used as an adverb, :question: changes the sentence into a yes-no-question:
 | :heart: :question: :arrow_lower_right: :pizza: | Do you like pizza? |
 
 
-## 6. Relative Sentences ##
+## 8. Relative Sentences ##
 
 In Emojigo, whole sentences can be used to modify nouns.
 This is done by suffixing the noun with the sentence.
@@ -266,14 +258,10 @@ This is done by suffixing the noun with the sentence.
 | Emojigo | English |
 |---------|---------|
 | :speech_balloon: :arrow_upper_right: :man: :fist: :arrow_lower_right: :moneybag: | The rich man speaks. (lit. The man, who has money, speaks.) |
-<<<<<<< HEAD
 | :woman: :muscle: :link: :fist: :punch: :x: :arrow_lower_right: :man: | a strong woman who doesn't need a man |
-=======
-| :woman: :muscle: :link: :fist: MUST :x: :arrow_lower_right: :man: | a strong woman who doesn't need a man |
->>>>>>> Snapshot
 
 
-## 7. Conjunctions ##
+## 9. Conjunctions ##
 
 | Emojigo | English |
 |---------|---------|
@@ -291,9 +279,9 @@ Conjunctions can be used to chain multiple sentences together.
 | :running: :pray: :heavy_minus_sign: :school: | I want to go, but there is school. |
 
 
-### 7.1. Linking Noun Phrases ###
+##### Linking Noun Phrases #####
 
-:heavy_plus_sign: and :heavy_multiplication_x: can also be used to link noun phrases:
+:heavy_plus_sign:, :heavy_multiplication_x: and :heavy_minus_sign: can also be used to link noun phrases, where :heavy_minus_sign: is translated as "without":
 
 | Emojigo | English |
 |---------|---------|
@@ -301,6 +289,7 @@ Conjunctions can be used to chain multiple sentences together.
 | :heart: :arrow_lower_right: :coffee: :heavy_plus_sign: :cake: | I like coffee with cake. |
 | :eyes: :rewind: :arrow_upper_right: :bust_in_silhouette: :+1: :heavy_plus_sign: :bust_in_silhouette: :arrow_down: :arrow_lower_right: :tv: | A friend and I watched a movie. |
 | :running: :pray: :arrow_right: :jp: :heavy_plus_sign: :fr: | I want to go to Japan and to France. |
+| :eyes: :rewind: :arrow_upper_right: :bust_in_silhouette: :arrow_down: :heavy_minus_sign: :bust_in_silhouette: :+1: :arrow_lower_right: :tv: | A I watched a movie without my friend. |
 
 Another way to express "and" is by repeating the corresponding particle for every noun phrase:
 
@@ -310,10 +299,7 @@ Another way to express "and" is by repeating the corresponding particle for ever
 | :eyes: :rewind: :arrow_upper_right: :bust_in_silhouette: :+1: :arrow_upper_right: :bust_in_silhouette: :arrow_down: :arrow_lower_right: :tv: | A friend and I watched a movie. |
 | :running: :pray: :arrow_right: :jp: :arrow_right: :fr: | I want to go to Japan and to France. |
 
-<<<<<<< HEAD
-=======
 This second way differs from :heavy_plus_sign: in that :heavy_plus_sign: often has the conotation of the linked items standing relation to each other (cf. "together with").
 Therefore it is more natural to say :heart: :arrow_lower_right: :pizza: :arrow_lower_right: :cake: than :heart: :arrow_lower_right: :pizza: :heavy_plus_sign: :cake:, as the second sentence implies eating pizza and cake at the same time.
 
->>>>>>> Snapshot
 
