@@ -7,6 +7,10 @@ define(`compound', `ifdef(`print', `| `$1' | `$2' |', )')dnl
 
 | Emojigo | English |
 |---------|---------|
+compound(SPEAK OF SYMBOL PICTURE, `Emojigo')
+compound(SPEAK GERMANY, `the German language')
+compound(SPEAK ENGLAND, `the English language')
+compound(SPEAK FRANCE, `the French language')
 compound(GIRL FAMILY, `sister')
 compound(HERE WHAT, `where, what place')
 compound(MAN FAMILY, `father')

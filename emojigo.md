@@ -1,4 +1,26 @@
-## Simple Sentences ##
+## Table of Contents ##
+
+   1. [Simple Sentences](#1-simple-sentences)
+   2. [Particles](#2-particles)
+   1. [Subjects and Objects](#21-subjects-and-objects)
+      1. [foo](#211-foo)
+   2. [Destinations and Origins](#22-destinations-and-origins)
+   3. [Context](#23-context)
+   3. [Adjectives and Adverbs](#3-adjectives-and-adverbs)
+   1. [Negation](#31-negation)
+   2. [Ownership](#32-ownership)
+   3. [Disambiguating Compound Adjectives](#33-disambiguating-compound-adjectives)
+   4. [Past and Future](#4-past-and-future)
+   1. [Past and Future in Context Clauses](#41-past-and-future-in-context-clauses)
+   5. [Locations](#5-locations)
+   1. [Questions](#51-questions)
+   6. [Relative Sentences](#6-relative-sentences)
+   7. [Conjunctions](#7-conjunctions)
+   1. [Linking Noun Phrases](#71-linking-noun-phrases)
+
+---
+
+## 1. Simple Sentences ##
 
 A minimal sentence in Emojigo consits of a single word.
 For verbs this kind of sentence means that someone or something is performing an action.
@@ -16,13 +38,15 @@ For nouns and adjectives, this kind of sentence states their being:
 | :dash: | (He is) fast. |
 
 
-## Particles ##
+## 2. Particles ##
 
 In Emojigo, a sentence always consists of a verb followed by phrases which describe the way the action is performed.
 The role of these phrases is indicated by a so called _particle_, a character preceding the phrase.
 
 
-### Subjects and Objects ###
+### 2.1. Subjects and Objects ###
+
+#### 2.1.1. foo ####
 
 The subject of a sentence is marked by the :arrow_upper_right: particle.
 Similarly, the object of a sentence is indicated through the :arrow_lower_right: particle.
@@ -42,7 +66,7 @@ For some verbs, :arrow_lower_right: can also be followed by a sentence:
 | :thought_balloon: :arrow_lower_right: :heart: :arrow_lower_right: :book: | (I) think (he) likes books. |
 
 
-### Destinations and Origins ###
+### 2.2. Destinations and Origins ###
 
 The destination and origin of a movement is marked by the :arrow_left: and :arrow_right: particles respecively.
 In this case, :arrow_left: or :arrow_right: have to be followed by a noun phrase.
@@ -61,7 +85,7 @@ They can be
 | :eyes: :arrow_lower_right: :book: :arrow_right: :bow: :arrow_lower_right: :notes: | (I) read a book in order to learn about music. |
 
 
-### Context ###
+### 2.3. Context ###
 
 The context particle :arrow_upper_left: gives further information on the circumstances under which an action is performed.
 This can include the place or time at which the action takes place or the tools which are used to perform an action.
@@ -74,7 +98,7 @@ If :arrow_upper_left: is followed by a sentence, the action in the main sentence
 | :running: :arrow_right: :school: :arrow_upper_left: :car: | (I) go to school by car. |
 
 
-## Adjectives and Adverbs ##
+## 3. Adjectives and Adverbs ##
 
 To make a description of the from _X has property Y_ or _X is Y_, The adjective _Y_ takes the role of the sentence's verb.
 
@@ -97,7 +121,7 @@ Every adjective can also be used as an adverb by placing it after a sentences ve
 | :running: :dash: :arrow_right: :school: | (I) quickly go to school. |
 
 
-### Negation ###
+### 3.1. Negation ###
 
 A phrase can be negated by using :x:.
 It can be used both as an adverb and an adjective.
@@ -110,7 +134,7 @@ It can be used both as an adverb and an adjective.
 | :car: :x: | a thing which is not a car |
 
 
-### Ownership ###
+### 3.2. Ownership ###
 
 A noun phrase can be used as an adjective to indicate ownership.
 
@@ -119,7 +143,7 @@ A noun phrase can be used as an adjective to indicate ownership.
 | :car: :man: | The car of the man. |
 
 
-### Disambiguating Compound Adjectives ###
+### 3.3. Disambiguating Compound Adjectives ###
 
 By default, adjectives are interpreted left associatively.
 Therefore, :car: :dash: :anchor: :x: is interpreted as ((:car: :dash:) :anchor:) :x: and thus means "something which is not a fast heavy car".
@@ -134,7 +158,7 @@ When two phrases are connected by :link:, the phrase right of the :link: is eval
 | :house: :link: :bust_in_silhouette: :arrow_down: | my house |
 
 
-## Past and Future ##
+## 4. Past and Future ##
 
 Past and future tense are expressed by the :rewind: and :fast_forward: adverbs, which mean "to be done in the past" and "to be done in the future".
 
@@ -155,7 +179,7 @@ Past and future tense are expressed by the :rewind: and :fast_forward: adverbs, 
 Lastly, :rewind: and :fast_forward: can be used as nouns: TODO
 
 
-### Past and Future in Context Clauses ###
+### 4.1. Past and Future in Context Clauses ###
 
 If the verb in a context clause is modified using :rewind: or :fast_forward:, it indicates that the action of the context clause took place before, or will take place after the after 
 
@@ -166,7 +190,7 @@ If the verb in a context clause is modified using :rewind: or :fast_forward:, it
 | :eyes: :rewind: :arrow_lower_right: :book: :arrow_upper_left: :running: :fast_forward: :arrow_right: :school: | (I) read a book before I went to school. |
 
 
-## Locations ##
+## 5. Locations ##
 
 The words :arrow_down:, :arrow_up_down: and :arrow_up: all mark locations relative to the speaker.
 :arrow_down: refers to something close to the speaker, similar to the English "here".
@@ -183,7 +207,7 @@ The words :arrow_down:, :arrow_up_down: and :arrow_up: all mark locations relati
 | :watch: :arrow_up: | then |
 
 
-### Questions ###
+### 5.1. Questions ###
 
 Questions can be formed by using the :question:.
 As a noun, it translates to "what".
@@ -213,7 +237,7 @@ When used as an adverb, :question: changes the sentence into a yes-no-question:
 | :heart: :question: :arrow_lower_right: :pizza: | Do you like pizza? |
 
 
-## Relative Sentences ##
+## 6. Relative Sentences ##
 
 In Emojigo, whole sentences can be used to modify nouns.
 This is done by suffixing the noun with the sentence.
@@ -221,10 +245,10 @@ This is done by suffixing the noun with the sentence.
 | Emojigo | English |
 |---------|---------|
 | :speech_balloon: :arrow_upper_right: :man: :fist: :arrow_lower_right: :moneybag: | The rich man speaks. (lit. The man, who has money, speaks.) |
-| :woman: :muscle: :link: NEED :x: :arrow_lower_right: :man: | a strong woman who doesn't need a man |
+| :woman: :muscle: :link: :fist: :punch: :x: :arrow_lower_right: :man: | a strong woman who doesn't need a man |
 
 
-## Conjunctions ##
+## 7. Conjunctions ##
 
 | Emojigo | English |
 |---------|---------|
@@ -242,7 +266,7 @@ Conjunctions can be used to chain multiple sentences together.
 | :running: :pray: :heavy_minus_sign: :school: | I want to go, but there is school. |
 
 
-### Linking Noun Phrases ###
+### 7.1. Linking Noun Phrases ###
 
 :heavy_plus_sign: and :heavy_multiplication_x: can also be used to link noun phrases:
 
@@ -260,4 +284,5 @@ Another way to express "and" is by repeating the corresponding particle for ever
 | :heart: :arrow_lower_right: :pizza: :arrow_lower_right: :cake: | I like pizza and cake. |
 | :eyes: :rewind: :arrow_upper_right: :bust_in_silhouette: :+1: :arrow_upper_right: :bust_in_silhouette: :arrow_down: :arrow_lower_right: :tv: | A friend and I watched a movie. |
 | :running: :pray: :arrow_right: :jp: :arrow_right: :fr: | I want to go to Japan and to France. |
+
 

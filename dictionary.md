@@ -49,6 +49,7 @@
 | :running: | to move |
 | :tv: | movie, video |
 | :notes: | music |
+| :punch: | must, have to |
 | :name_badge: | name, word |
 | :x: | not, no |
 | :arrow_lower_right: | [object particle] |
@@ -83,12 +84,17 @@
 | :woman: | woman |
 | :pencil2: | to write |
 | :heavy_check_mark: | yes |
+| :gb: | Great Britain |
 
 
 ## Compound Words ##
 
 | Emojigo | English |
 |---------|---------|
+| :speech_balloon: :link: :symbols: :flower_playing_cards: | Emojigo |
+| :speech_balloon: :de: | the German language |
+| :speech_balloon: :gb: | the English language |
+| :speech_balloon: :fr: | the French language |
 | :girl: :family: | sister |
 | :arrow_down: :question: | where, what place |
 | :man: :family: | father |
