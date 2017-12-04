@@ -46,7 +46,4 @@ divert(OUT_STREAM)`####' [SEC_CTR.SUBSEC_CTR.SUBSUBSEC_CTR. $1](`#table-of-conte
 
 define(`PARAGRAPH', ``#####' $1 `#####'')
 
-# TODOs
-define(`TODO', `**`TODO': $1**')
-
 divert(OUT_STREAM)

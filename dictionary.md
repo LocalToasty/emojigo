@@ -95,6 +95,7 @@
 | :woman: | woman |
 | :pencil2: | to write |
 | :heavy_check_mark: | yes |
+| :chocolate_bar: | chocolate |
 
 
 ## Compound Words ##
@@ -128,3 +129,4 @@
 | :watch: :arrow_up: | then, that time |
 | :watch: :question: | when, what time |
 | :woman: :family: | mother |
+| :coffee: :chocolate_bar: | hot chocolate |

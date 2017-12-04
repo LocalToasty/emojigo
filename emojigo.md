@@ -9,15 +9,18 @@
    1. [Negation](#31-negation)
    2. [Ownership](#32-ownership)
    3. [Comparisons](#33-comparisons)
-   4. [Expressing Modality](#34-expressing-modality)
-   5. [Disambiguating Compound Adjectives](#35-disambiguating-compound-adjectives)
-4. [Past and Future](#4-past-and-future)
-5. [Locations](#5-locations)
-6. [Pluralization](#6-pluralization)
-7. [Questions](#7-questions)
-8. [Relative Sentences](#8-relative-sentences)
-9. [Conjunctions](#9-conjunctions)
-10. [Nominalizing Verbs](#10-nominalizing-verbs)
+   4. [Past and Future](#34-past-and-future)
+      1. [Past and Future in Context Clauses](#341-past-and-future-in-context-clauses)
+   5. [Aspect](#35-aspect)
+   6. [Disambiguating Compound Adjectives](#36-disambiguating-compound-adjectives)
+4. [Nouns](#4-nouns)
+   1. [Locations](#41-locations)
+   2. [Pluralization](#42-pluralization)
+   3. [Nominalizing Verbs](#43-nominalizing-verbs)
+5. [Questions](#5-questions)
+6. [Relative Sentences](#6-relative-sentences)
+7. [Conjunctions](#7-conjunctions)
+   1. [Linking Noun Phrases](#71-linking-noun-phrases)
 
 ---
 
@@ -89,7 +92,7 @@ They can be
 
 The context particle :arrow_upper_left: gives further information on the circumstances under which an action is performed.
 This can include the place or time at which the action takes place or the tools which are used to perform an action.
-If :arrow_upper_left: is followed by a sentence, the action in the main sentence is assumed to take place at the same time as the sentence in the subordinate clause.
+If :arrow_upper_left: is followed by a sentence, the action in the main sentence is assumed to take place at the same time as the sentence in the subordinate clause. 
 
 | Emojigo | English |
 |---------|---------|
@@ -153,35 +156,7 @@ In these sentences, the subject is the object which is more or less, while the o
 | :dash: :arrow_heading_up: :arrow_upper_right: :car: :link: :bust_in_silhouette: :arrow_down: :arrow_lower_right: :car: :link: :bust_in_silhouette: :arrow_up_down: | My car is faster than yours. |
 
 
-### [3.4. Expressing Modality](#table-of-contents) ###
-
-Adverbs are also used to express modalities of an action, such as volition :pray:, obligation :punch:, potential :hand: and progressiveness :left_right_arrow:.
-
-| Emojigo | English |
-|---------|---------|
-| :eyes: | to see |
-| :eyes: :pray: | to want to see |
-| :eyes: :hand: | to be able to see |
-| :eyes: :punch: | to have to see |
-| :eyes: :left_right_arrow: | to be seeing |
-
-
-### [3.5. Disambiguating Compound Adjectives](#table-of-contents) ###
-
-By default, adjectives are interpreted left associatively.
-Therefore, :car: :dash: :anchor: :x: is interpreted as ((:car: :dash:) :anchor:) :x: and thus means "something which is not a fast heavy car".
-Similarly, :house: :bust_in_silhouette: :arrow_down: does not mean "my house", but "house which is here and of a person" ((:house: :bust_in_silhouette:) :arrow_down:).
-
-:link: is used to break this left-associativity.
-When two phrases are connected by :link:, the phrase right of the :link: is evaluated completely before modifying the phras on the left.
-
-| Emojigo | English |
-|---------|---------|
-| :car: :dash: :link: :anchor: :x: | a car which is fast and not heavy |
-| :house: :link: :bust_in_silhouette: :arrow_down: | my house |
-
-
-## [4. Past and Future](#table-of-contents) ##
+### [3.4. Past and Future](#table-of-contents) ###
 
 Past and future tense are expressed by the :rewind: and :fast_forward: adverbs, which mean "to be done in the past" and "to be done in the future".
 
@@ -199,10 +174,8 @@ Past and future tense are expressed by the :rewind: and :fast_forward: adverbs, 
 |---------|---------|
 | :heart: :x: :rewind: :arrow_lower_right: :car: :rewind: | I didn't like my former car. |
 
-**TODO: Lastly, :rewind: and :fast_forward: can be used as nouns:**
 
-
-##### Past and Future in Context Clauses #####
+#### [3.4.1. Past and Future in Context Clauses](#table-of-contents) ####
 
 If the verb in a context clause is modified using :rewind: or :fast_forward:, it indicates that the action of the context clause took place before, or will take place after the after 
 
@@ -213,7 +186,37 @@ If the verb in a context clause is modified using :rewind: or :fast_forward:, it
 | :eyes: :rewind: :arrow_lower_right: :book: :arrow_upper_left: :running: :fast_forward: :arrow_right: :school: | (I) read a book before I went to school. |
 
 
-## [5. Locations](#table-of-contents) ##
+### [3.5. Aspect](#table-of-contents) ###
+
+Adverbs are also used to express modalities of an action, such as volition :pray:, obligation :punch:, potential :hand: and progressiveness :left_right_arrow:.
+
+| Emojigo | English |
+|---------|---------|
+| :eyes: | to see |
+| :eyes: :pray: | to want to see |
+| :eyes: :hand: | to be able to see |
+| :eyes: :punch: | to have to see |
+| :eyes: :left_right_arrow: | to be seeing |
+
+
+### [3.6. Disambiguating Compound Adjectives](#table-of-contents) ###
+
+By default, adjectives are interpreted left associatively.
+Therefore, :car: :dash: :anchor: :x: is interpreted as ((:car: :dash:) :anchor:) :x: and thus means "something which is not a fast heavy car".
+Similarly, :house: :bust_in_silhouette: :arrow_down: does not mean "my house", but "house which is here and of a person" ((:house: :bust_in_silhouette:) :arrow_down:).
+
+:link: is used to break this left-associativity.
+When two phrases are connected by :link:, the phrase right of the :link: is evaluated completely before modifying the phras on the left.
+
+| Emojigo | English |
+|---------|---------|
+| :car: :dash: :link: :anchor: :x: | a car which is fast and not heavy |
+| :house: :link: :bust_in_silhouette: :arrow_down: | my house |
+
+
+## [4. Nouns](#table-of-contents) ##
+
+### [4.1. Locations](#table-of-contents) ###
 
 The words :arrow_down:, :arrow_up_down: and :arrow_up: all mark locations relative to the speaker.
 :arrow_down: refers to something close to the speaker, similar to the English "here".
@@ -230,7 +233,7 @@ The words :arrow_down:, :arrow_up_down: and :arrow_up: all mark locations relati
 | :watch: :arrow_up: | then |
 
 
-## [6. Pluralization](#table-of-contents) ##
+### [4.2. Pluralization](#table-of-contents) ###
 
 In their plain form, nouns are interpreted to be in their singular form.
 A noun can be pluralized by repeating it.
@@ -247,7 +250,27 @@ If there are adjectives modifying the noun, only the noun itself, i.e. the initi
 | :bust_in_silhouette: :bust_in_silhouette: :arrow_up: | they |
 
 
-## [7. Questions](#table-of-contents) ##
+### [4.3. Nominalizing Verbs](#table-of-contents) ###
+
+Every verb can be used as a noun which describes the action of doing that verb:
+
+| Emojigo | English |
+|---------|---------|
+| :eyes: | seeing, reading |
+| :running: | moving |
+| :ear: | listening |
+
+There also is the nominalizer :black_circle:, which followed by a verb describes an object the verb is typically used on:
+
+| Emojigo | English |
+|---------|---------|
+| :black_circle: :tongue: | food |
+| :black_circle: :ear: | sound |
+| :black_circle: :speech_balloon: | language, word, sentence |
+| :black_circle: :pray: | wanted thing |
+
+
+## [5. Questions](#table-of-contents) ##
 
 Questions can be formed by using the :question:.
 As a noun, it translates to "what".
@@ -277,7 +300,7 @@ When used as an adverb, :question: changes the sentence into a yes-no-question:
 | :heart: :question: :arrow_lower_right: :pizza: | Do you like pizza? |
 
 
-## [8. Relative Sentences](#table-of-contents) ##
+## [6. Relative Sentences](#table-of-contents) ##
 
 In Emojigo, whole sentences can be used to modify nouns.
 This is done by suffixing the noun with the sentence.
@@ -288,7 +311,7 @@ This is done by suffixing the noun with the sentence.
 | :woman: :muscle: :link: :fist: :punch: :x: :arrow_lower_right: :man: | a strong woman who doesn't need a man |
 
 
-## [9. Conjunctions](#table-of-contents) ##
+## [7. Conjunctions](#table-of-contents) ##
 
 | Emojigo | English |
 |---------|---------|
@@ -306,7 +329,7 @@ Conjunctions can be used to chain multiple sentences together.
 | :running: :pray: :heavy_minus_sign: :school: | I want to go, but there is school. |
 
 
-##### Linking Noun Phrases #####
+### [7.1. Linking Noun Phrases](#table-of-contents) ###
 
 :heavy_plus_sign:, :heavy_multiplication_x: and :heavy_minus_sign: can also be used to link noun phrases, where :heavy_minus_sign: is translated as "without":
 
@@ -328,25 +351,5 @@ Another way to express "and" is by repeating the corresponding particle for ever
 
 This second way differs from :heavy_plus_sign: in that :heavy_plus_sign: often has the conotation of the linked items standing relation to each other (cf. "together with").
 Therefore it is more natural to say :heart: :arrow_lower_right: :pizza: :arrow_lower_right: :cake: than :heart: :arrow_lower_right: :pizza: :heavy_plus_sign: :cake:, as the second sentence implies eating pizza and cake at the same time.
-
-
-## [10. Nominalizing Verbs](#table-of-contents) ##
-
-Every verb can be used as a noun which describes the action of doing that verb:
-
-| Emojigo | English |
-|---------|---------|
-| :eyes: | seeing, reading |
-| :running: | moving |
-| :ear: | listening |
-
-There also is the nominalizer :black_circle:, which followed by a verb describes an object the verb is typically used on:
-
-| Emojigo | English |
-|---------|---------|
-| :black_circle: :tongue: | food |
-| :black_circle: :ear: | sound |
-| :black_circle: :speech_balloon: | language, word, sentence |
-| :black_circle: :pray: | wanted thing |
 
 

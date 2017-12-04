@@ -65,7 +65,7 @@ SUBSECTION(Context)
 
 The context particle CONTEXT gives further information on the circumstances under which an action is performed.
 This can include the place or time at which the action takes place or the tools which are used to perform an action.
-If CONTEXT is followed by a sentence, the action in the main sentence is assumed to take place at the same time as the sentence in the subordinate clause.
+If CONTEXT is followed by a sentence, the action in the main sentence is assumed to take place at the same time as the sentence in the subordinate clause. 
 
 TABLE
 | SEE OBJ BOOK CONTEXT SCHOOL | (I) read a book in school. |
@@ -122,7 +122,34 @@ TABLE
 | FAST MORE SUBJ CAR OF PERSON HERE OBJ CAR OF PERSON SOKO | My car is faster than yours. |
 
 
-SUBSECTION(Expressing Modality)
+SUBSECTION(Past and Future)
+
+Past and future tense are expressed by the PAST and FUTURE adverbs, which mean "to be done in the past" and "to be done in the future".
+
+TABLE
+| EAT | I eat. |
+| HEAR PAST | I heard. |
+| SPEAK FUTURE | I will speak. |
+| MOVE NOT FUTURE | I will not go. |
+| WANT OBJ COP FUTURE | I want to be a policeman. |
+
+PAST and FUTURE can also be used as adjectives meaning "former" and "future":
+
+TABLE
+| LIKE NOT PAST OBJ CAR PAST | I didn't like my former car. |
+
+
+SUBSUBSECTION(Past and Future in Context Clauses)
+
+If the verb in a context clause is modified using PAST or FUTURE, it indicates that the action of the context clause took place before, or will take place after the after 
+
+TABLE
+| SEE PAST OBJ BOOK CONTEXT MOVE TO SCHOOL | (I) read a book while I went to school. |
+| SEE PAST OBJ BOOK CONTEXT MOVE PAST TO SCHOOL | (I) read a book after I went to school. |
+| SEE PAST OBJ BOOK CONTEXT MOVE FUTURE TO SCHOOL | (I) read a book before I went to school. |
+
+
+SUBSECTION(Aspect)
 
 Adverbs are also used to express modalities of an action, such as volition WANT, obligation MUST, potential CAN and progressiveness PROG.
 
@@ -148,36 +175,9 @@ TABLE
 | HOUSE OF PERSON HERE | my house |
 
 
-SECTION(Past and Future)
+SECTION(Nouns)
 
-Past and future tense are expressed by the PAST and FUTURE adverbs, which mean "to be done in the past" and "to be done in the future".
-
-TABLE
-| EAT | I eat. |
-| HEAR PAST | I heard. |
-| SPEAK FUTURE | I will speak. |
-| MOVE NOT FUTURE | I will not go. |
-| WANT OBJ COP FUTURE | I want to be a policeman. |
-
-PAST and FUTURE can also be used as adjectives meaning "former" and "future":
-
-TABLE
-| LIKE NOT PAST OBJ CAR PAST | I didn't like my former car. |
-
-TODO(`Lastly, PAST and FUTURE can be used as nouns:')
-
-
-PARAGRAPH(Past and Future in Context Clauses)
-
-If the verb in a context clause is modified using PAST or FUTURE, it indicates that the action of the context clause took place before, or will take place after the after 
-
-TABLE
-| SEE PAST OBJ BOOK CONTEXT MOVE TO SCHOOL | (I) read a book while I went to school. |
-| SEE PAST OBJ BOOK CONTEXT MOVE PAST TO SCHOOL | (I) read a book after I went to school. |
-| SEE PAST OBJ BOOK CONTEXT MOVE FUTURE TO SCHOOL | (I) read a book before I went to school. |
-
-
-SECTION(Locations)
+SUBSECTION(Locations)
 
 The words HERE, SOKO and THERE all mark locations relative to the speaker.
 HERE refers to something close to the speaker, similar to the English "here".
@@ -193,7 +193,7 @@ TABLE
 | TIME THERE | then |
 
 
-SECTION(Pluralization)
+SUBSECTION(Pluralization)
 
 In their plain form, nouns are interpreted to be in their singular form.
 A noun can be pluralized by repeating it.
@@ -207,6 +207,24 @@ TABLE
 | PERSON PERSON HERE | we |
 | PERSON PERSON SOKO | you (plural) |
 | PERSON PERSON THERE | they |
+
+
+SUBSECTION(Nominalizing Verbs)
+
+Every verb can be used as a noun which describes the action of doing that verb:
+
+TABLE
+| SEE | seeing, reading |
+| MOVE | moving |
+| HEAR | listening |
+
+There also is the nominalizer THING, which followed by a verb describes an object the verb is typically used on:
+
+TABLE
+| THING EAT | food |
+| THING HEAR | sound |
+| THING SPEAK | language, word, sentence |
+| THING WANT | wanted thing |
 
 
 SECTION(Questions)
@@ -262,7 +280,7 @@ TABLE
 | MOVE WANT BUT SCHOOL | I want to go, but there is school. |
 
 
-PARAGRAPH(Linking Noun Phrases)
+SUBSECTION(Linking Noun Phrases)
 
 AND, OR and BUT can also be used to link noun phrases, where BUT is translated as "without":
 
@@ -282,24 +300,6 @@ TABLE
 
 This second way differs from AND in that AND often has the conotation of the linked items standing relation to each other (cf. "together with").
 Therefore it is more natural to say LIKE OBJ PIZZA OBJ CAKE than LIKE OBJ PIZZA AND CAKE, as the second sentence implies eating pizza and cake at the same time.
-
-
-SECTION(Nominalizing Verbs)
-
-Every verb can be used as a noun which describes the action of doing that verb:
-
-TABLE
-| SEE | seeing, reading |
-| MOVE | moving |
-| HEAR | listening |
-
-There also is the nominalizer THING, which followed by a verb describes an object the verb is typically used on:
-
-TABLE
-| THING EAT | food |
-| THING HEAR | sound |
-| THING SPEAK | language, word, sentence |
-| THING WANT | wanted thing |
 
 
 dnl Conditional Sentences
