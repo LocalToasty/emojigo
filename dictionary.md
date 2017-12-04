@@ -1,4 +1,15 @@
-## Morphemes ##
+## Table of Contents ##
+
+1. [Morphemes](#1-morphemes)
+2. [Compound Words](#2-compound-words)
+   1. [Family](#21-family)
+   2. [People](#22-people)
+   3. [Nation Related](#23-nation-related)
+   4. [Other](#24-other)
+
+---
+
+## [1. Morphemes](#table-of-contents) ##
 
 | Emojigo | English |
 |---------|---------|
@@ -98,35 +109,55 @@
 | :chocolate_bar: | chocolate |
 
 
-## Compound Words ##
+
+## [2. Compound Words](#table-of-contents) ##
+
+### [2.1. Family](#table-of-contents) ###
 
 | Emojigo | English |
 |---------|---------|
 | :boy: :family: | brother |
-| :tongue: :ocean: | to drink |
 | :girl: :family: | sister |
-| :information_desk_person: :arrow_lower_right: :bow: | to teach |
-| :arrow_down: :question: | where, what place |
 | :man: :family: | father |
-| :running: :arrow_down: | to come |
-| :running: :arrow_up: | to go |
-| :bust_in_silhouette: :-1: | enemy, rival |
-| :bust_in_silhouette: :+1: | friend |
+| :woman: :family: | mother |
+| :boy: :girl: :family: | siblings |
+| :man: :woman: :family: | parents |
+
+### [2.2. People](#table-of-contents) ###
+
+| Emojigo | English |
+|---------|---------|
 | :bust_in_silhouette: :arrow_down: | I, myself, me |
-| :bust_in_silhouette: :raised_hands: | maker, inventor |
+| :bust_in_silhouette: :arrow_up_down: | you |
+| :bust_in_silhouette: :arrow_up: | they |
 | :bust_in_silhouette: :bust_in_silhouette: :arrow_down: | we |
 | :bust_in_silhouette: :bust_in_silhouette: :arrow_up_down: | you (plural) |
 | :bust_in_silhouette: :bust_in_silhouette: :arrow_up: | they |
-| :bust_in_silhouette: :arrow_up_down: | you |
-| :bust_in_silhouette: :arrow_up: | they |
 | :bust_in_silhouette: :question: | who, which person |
-| :open_hands: :arrow_lower_right: :bow: | to learn |
-| :speech_balloon: :gb: | the English language |
-| :speech_balloon: :fr: | the French language |
-| :speech_balloon: :de: | the German language |
+| :bust_in_silhouette: :-1: | enemy, rival |
+| :bust_in_silhouette: :+1: | friend |
+| :bust_in_silhouette: :raised_hands: | maker, inventor |
+
+### [2.3. Nation Related](#table-of-contents) ###
+
+| Emojigo | English |
+|---------|---------|
+| :japan: _nation_ | territory of _nation_ |
+| :speech_balloon: _nation_ | language of _nation_ |
+| :bust_in_silhouette: _nation_ | person from _nation_ |
+
+### [2.4. Other](#table-of-contents) ###
+
+| Emojigo | English |
+|---------|---------|
 | :speech_balloon: :link: :symbols: :flower_playing_cards: | Emojigo |
+| :tongue: :ocean: | to drink |
+| :information_desk_person: :arrow_lower_right: :bow: | to teach |
+| :arrow_down: :question: | where, what place |
+| :running: :arrow_down: | to come |
+| :running: :arrow_up: | to go |
+| :open_hands: :arrow_lower_right: :bow: | to learn |
 | :watch: :arrow_down: | now |
 | :watch: :arrow_up: | then, that time |
 | :watch: :question: | when, what time |
-| :woman: :family: | mother |
 | :coffee: :chocolate_bar: | hot chocolate |

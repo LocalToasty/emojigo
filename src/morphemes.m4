@@ -1,6 +1,6 @@
 define(`morpheme', `define($1, $2)ifdef(`print', `| `$2' | `$3' |', `dnl')')dnl
 ifdef(`print',
-`## Morphemes ##'
+`SECTION(Morphemes)'
 
 `| Emojigo | English |'
 `|---------|---------|'

@@ -4,6 +4,9 @@ dnl
 define(`TABLE',
 | Emojigo | English |
 |---------|---------|)
+
+BEGIN_DOC
+MAKE_TOC
 SECTION(Simple Sentences)
 
 A minimal sentence in Emojigo consits of a single word.
@@ -65,7 +68,7 @@ SUBSECTION(Context)
 
 The context particle CONTEXT gives further information on the circumstances under which an action is performed.
 This can include the place or time at which the action takes place or the tools which are used to perform an action.
-If CONTEXT is followed by a sentence, the action in the main sentence is assumed to take place at the same time as the sentence in the subordinate clause. 
+If CONTEXT is followed by a sentence, the action in the main sentence is assumed to take place at the same time as the sentence in the subordinate clause (See REF(context_past_future)).
 
 TABLE
 | SEE OBJ BOOK CONTEXT SCHOOL | (I) read a book in school. |
@@ -140,6 +143,7 @@ TABLE
 
 
 SUBSUBSECTION(Past and Future in Context Clauses)
+LABEL(context_past_future)
 
 If the verb in a context clause is modified using PAST or FUTURE, it indicates that the action of the context clause took place before, or will take place after the after 
 
@@ -304,3 +308,4 @@ Therefore it is more natural to say LIKE OBJ PIZZA OBJ CAKE than LIKE OBJ PIZZA 
 
 dnl Conditional Sentences
 dnl learn become
+END_DOC

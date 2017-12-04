@@ -23,8 +23,6 @@
    1. [Linking Noun Phrases](#71-linking-noun-phrases)
 
 ---
-
-
 ## [1. Simple Sentences](#table-of-contents) ##
 
 A minimal sentence in Emojigo consits of a single word.
@@ -92,7 +90,7 @@ They can be
 
 The context particle :arrow_upper_left: gives further information on the circumstances under which an action is performed.
 This can include the place or time at which the action takes place or the tools which are used to perform an action.
-If :arrow_upper_left: is followed by a sentence, the action in the main sentence is assumed to take place at the same time as the sentence in the subordinate clause. 
+If :arrow_upper_left: is followed by a sentence, the action in the main sentence is assumed to take place at the same time as the sentence in the subordinate clause (See [3.4.1](#341-past-and-future-in-context-clauses)).
 
 | Emojigo | English |
 |---------|---------|
