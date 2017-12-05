@@ -125,6 +125,22 @@ TABLE
 | FAST MORE SUBJ CAR OF PERSON HERE OBJ CAR OF PERSON SOKO | My car is faster than yours. |
 
 
+SUBSECTION(Disambiguating Compound Adjectives)
+
+By default, adjectives are interpreted left associatively.
+Therefore, CAR FAST HEAVY NOT is interpreted as ((CAR FAST) HEAVY) NOT and thus means "something which is not a fast heavy car".
+Similarly, HOUSE PERSON HERE does not mean "my house", but "house which is here and of a person" ((HOUSE PERSON) HERE).
+
+OF is used to break this left-associativity.
+When two phrases are connected by OF, the phrase right of the OF is evaluated completely before modifying the phras on the left.
+
+TABLE
+| CAR FAST OF HEAVY NOT | a car which is fast and not heavy |
+| HOUSE OF PERSON HERE | my house |
+
+
+SECTION(Verbs)
+
 SUBSECTION(Past and Future)
 
 Past and future tense are expressed by the PAST and FUTURE adverbs, which mean "to be done in the past" and "to be done in the future".
@@ -163,20 +179,6 @@ TABLE
 | SEE CAN | to be able to see |
 | SEE MUST | to have to see |
 | SEE PROG | to be seeing |
-
-
-SUBSECTION(Disambiguating Compound Adjectives)
-
-By default, adjectives are interpreted left associatively.
-Therefore, CAR FAST HEAVY NOT is interpreted as ((CAR FAST) HEAVY) NOT and thus means "something which is not a fast heavy car".
-Similarly, HOUSE PERSON HERE does not mean "my house", but "house which is here and of a person" ((HOUSE PERSON) HERE).
-
-OF is used to break this left-associativity.
-When two phrases are connected by OF, the phrase right of the OF is evaluated completely before modifying the phras on the left.
-
-TABLE
-| CAR FAST OF HEAVY NOT | a car which is fast and not heavy |
-| HOUSE OF PERSON HERE | my house |
 
 
 SECTION(Nouns)
@@ -306,6 +308,6 @@ This second way differs from AND in that AND often has the conotation of the lin
 Therefore it is more natural to say LIKE OBJ PIZZA OBJ CAKE than LIKE OBJ PIZZA AND CAKE, as the second sentence implies eating pizza and cake at the same time.
 
 
-dnl Conditional Sentences
-dnl learn become
+SECTION(Conditional Sentences)
+dnl become
 END_DOC

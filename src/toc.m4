@@ -1,4 +1,5 @@
-divert(-1)
+ifdef(`TOC_INCLUDED',,
+define(`TOC_INCLUDED', 1)
 
 # Stream number constants
 define(`LABEL_STREAM', 0) # for labels
@@ -18,7 +19,7 @@ define(`SUBSEC_CTR', 0)
 define(`SUBSUBSEC_CTR', 0)
 
 
-# Write Lable definition header
+# Write label definition header
 divert(LABEL_STREAM)dnl
 `divert'(-1)
 `dnl Automatically created label definitions'
@@ -32,12 +33,12 @@ divert(TOC_STREAM)
 
 divert(-1)
 
+
 # Text between the BEGIN_DOC and END_DOC macros will be output
 define(`BEGIN_DOC',
 `divert(OUT_STREAM)
 `divert'(OUT_STREAM)`dnl'
 `dnl' Beginning of document')
-
 
 # END_DOC empties the TOC diversion, discarding the TOC if it wasn't actively shown using MAKE_TOC
 define(`END_DOC',
@@ -52,8 +53,9 @@ define(`MAKE_TOC',
 `divert'(OUT_STREAM)`dnl'
 `undivert'(TOC_STREAM)`dnl'')
 
+
 # Helper function: Converts a string into the corresponding anchor
-define(`ANCHOR', `translit(`$1', ` A-Z', `-a-z')')
+define(`ANCHOR_TEXT', `translit(`$1', ` A-Z', `-a-z')')
 
 # Macros for defining chapters / sections
 # Each macro
@@ -68,7 +70,7 @@ RES_CTR(`SUBSEC_CTR')
 RES_CTR(`SUBSUBSEC_CTR')
 define(`CURR_NUM', `Chapter CHAP_CTR')
 define(`CURR_TITLE', `$1')
-define(`CURR_ANCHOR', ``chapter-'CHAP_CTR`-'ANCHOR(`$1')-1')
+define(`CURR_ANCHOR', ``chapter-'CHAP_CTR`-'ANCHOR_TEXT(`$1')-1')
 divert(TOC_STREAM)dnl
 `#### '[CURR_NUM: CURR_TITLE](`#'CURR_ANCHOR)` ####'
 divert(OUT_STREAM)dnl
@@ -81,7 +83,7 @@ RES_CTR(`SUBSEC_CTR')
 RES_CTR(`SUBSUBSEC_CTR')
 define(`CURR_NUM', SEC_CTR)
 define(`CURR_TITLE', `$1')
-define(`CURR_ANCHOR', `SEC_CTR`-'ANCHOR(`$1')')
+define(`CURR_ANCHOR', `SEC_CTR`-'ANCHOR_TEXT(`$1')')
 divert(TOC_STREAM)dnl
 SEC_CTR. [CURR_TITLE](`#'CURR_ANCHOR)
 divert(OUT_STREAM)dnl
@@ -93,7 +95,7 @@ INC_CTR(`SUBSEC_CTR')
 RES_CTR(`SUBSUBSEC_CTR')
 define(`CURR_NUM', SEC_CTR.SUBSEC_CTR)
 define(`CURR_TITLE', `$1')
-define(`CURR_ANCHOR', `SEC_CTR`'SUBSEC_CTR`-'ANCHOR(`$1')')
+define(`CURR_ANCHOR', `SEC_CTR`'SUBSEC_CTR`-'ANCHOR_TEXT(`$1')')
 divert(TOC_STREAM)dnl
    SUBSEC_CTR. [CURR_TITLE](`#'CURR_ANCHOR)
 divert(OUT_STREAM)dnl
@@ -104,7 +106,7 @@ define(`SUBSUBSECTION',
 INC_CTR(`SUBSUBSEC_CTR')
 define(`CURR_NUM', SEC_CTR.SUBSEC_CTR.SUBSUBSEC_CTR)
 define(`CURR_TITLE', `$1')
-define(`CURR_ANCHOR', `SEC_CTR`'SUBSEC_CTR`'SUBSUBSEC_CTR`-'ANCHOR(`$1')')
+define(`CURR_ANCHOR', `SEC_CTR`'SUBSEC_CTR`'SUBSUBSEC_CTR`-'ANCHOR_TEXT(`$1')')
 divert(TOC_STREAM)dnl
       SUBSUBSEC_CTR. [CURR_TITLE](`#'CURR_ANCHOR)
 divert(OUT_STREAM)dnl
@@ -116,6 +118,7 @@ define(`CURR_TITLE', `$1')
 divert(OUT_STREAM)dnl
 `#####' [CURR_TITLE](`#table-of-contents') `#####'')
 
+
 # Creates a new label which can be referenced with REF
 define(`LABEL',
 `divert(LABEL_STREAM)
@@ -124,6 +127,7 @@ define(`LABEL',
 `define'(`LABEL_$1_ANCHOR', CURR_ANCHOR)
 divert(OUT_STREAM)dnl')
 
+
 # Replaces argument with the corresponding reference
 define(`REF',
 ``ifdef'(``LABEL_$1_NUM'',
@@ -131,4 +135,5 @@ define(`REF',
 ``**??**''``errprint''(__file__:__line__: `Undefined Label "$1"
 '))')
 
+)
 divert(0)

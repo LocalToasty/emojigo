@@ -1,4 +1,5 @@
-## Table of Contents ##
+
+
 
 1. [Morphemes](#1-morphemes)
 2. [Compound Words](#2-compound-words)
@@ -11,102 +12,105 @@
 
 ## [1. Morphemes](#table-of-contents) ##
 
-| Emojigo | English |
-|---------|---------|
-| :heavy_plus_sign: | and, with |
-| :baby: | baby |
-| :-1: | bad |
-| :arrow_right: | to become |
-| :beginner: | to begin |
-| :tokyo_tower: | big, tall |
-| :book: | book |
-| :boy: | boy |
-| :gb: | Great Britain |
-| :heavy_minus_sign: | but, without |
-| :cake: | cake |
-| :hand: | to be able, ability |
-| :car: | car |
-| :coffee: | coffee |
-| :snowflake: | cold, snow, year |
-| :rainbow: | color, rainbow |
-| :arrow_upper_left: | [context particle] |
-| :cop: | policeman, policewoman |
-| :japan: | country |
-| :heavy_division_sign: | despite |
-| :skull: | to die, death |
-| :tongue: | to eat |
-| :family: | family |
-| :dash: | fast |
-| :fire: | fire, hot |
-| :fr: | France, French |
-| :arrow_left: | [origin particle] |
-| :ferris_wheel: | fun, funny, entertaining |
-| :fast_forward: | future, later |
-| :video_game: | to play, to spend time pleasantly |
-| :de: | Germany, German |
-| :girl: | Girl |
-| :information_desk_person: | to give |
-| :+1: | good, well |
-| :fist: | to have, to own |
-| :ear: | to hear, to listen |
-| :anchor: | heavy, sluggish |
-| :arrow_down: | here |
-| :house: | house, home |
-| :jp: | Japan, Japanese |
-| :bow: | to know |
-| :arrow_heading_down: | less |
-| :heart: | to like |
-| :cupid: | to love |
-| :raised_hands: | to make |
-| :man: | man |
-| :100: | many, often |
-| :meat_on_bone: | meat |
-| :moneybag: | money |
-| :monkey: | animal, monkey |
-| :crescent_moon: | night |
-| :arrow_heading_up: | more |
-| :running: | to move |
-| :tv: | movie, video |
-| :notes: | music |
-| :punch: | must, have to |
-| :name_badge: | name, word |
-| :x: | not, no |
-| :arrow_lower_right: | [object particle] |
-| :link: | [link particle] |
-| :heavy_multiplication_x: | or |
-| :rewind: | past, former, before |
-| :bust_in_silhouette: | person |
-| :flower_playing_cards: | picture |
-| :pizza: | pizza |
-| :left_right_arrow: | progressing, in action |
-| :open_hands: | to get, to receive |
-| :school: | school |
-| :mag: | to search, to look for |
-| :eyes: | to see, to watch, to read |
-| :sleeping: | to sleep |
-| :snail: | slow, snail |
-| :arrow_up_down: | there (close to listener) |
-| :speech_balloon: | to say, to speak |
-| :statue_of_liberty: | statue |
-| :no_entry_sign: | to stop |
-| :dizzy: | strange |
-| :muscle: | strong |
-| :arrow_upper_right: | [subject particle] |
-| :sunny: | day, sun, sunny |
-| :symbols: | symbol |
-| :arrow_up: | there |
-| :black_circle: | thing |
-| :thought_balloon: | to think |
-| :watch: | time, hour |
-| :arrow_right: | [destination particle] |
-| :wrench: | tool |
-| :pray: | to want, wanted |
-| :ocean: | water |
-| :question: | what, what kind of |
-| :woman: | woman |
-| :pencil2: | to write |
-| :heavy_check_mark: | yes |
-| :chocolate_bar: | chocolate |
+| Emojigo | Pronunciation | English |
+|---|---|---|
+| :arrow_upper_right: | ga | [subject particle] |
+| :arrow_lower_right: | o | [object particle] |
+| :arrow_upper_left: | de | [context particle] |
+| :arrow_left: | fon | [origin particle] |
+| :arrow_right: | tu | [destination particle] |
+| :arrow_down: | hia | here |
+| :arrow_up_down: | du | there (close to listener) |
+| :arrow_up: | da | there |
+| :arrow_heading_up: | moa | more |
+| :arrow_heading_down: | les | less |
+| :heavy_check_mark: | yes | yes |
+| :x: | not | not, no |
+| :link: | of | [link particle] |
+| :heavy_plus_sign: | to | and, with |
+| :heavy_multiplication_x: | ya | or |
+| :heavy_minus_sign: | bat | but, without |
+| :heavy_division_sign: | aba | despite |
+| :radio_button: | wen | [if then] |
+| :question: | nan | what, what kind of |
+| :+1: | gut | good, well |
+| :-1: | bet | bad |
+| :100: | hoi | many, often |
+| :beginner: | los | to begin |
+| :no_entry: | hal | to stop |
+| :hand: | kan | to be able, ability |
+| :pray: | wil | to want, wanted |
+| :punch: | mus | must, have to |
+| :fast_forward: | dan | future, later |
+| :rewind: | lai | past, former, before |
+| :left_right_arrow: | in | progressing, in action |
+| :arrow_forward: | ver | to become |
+| :open_hands: | get | to get, to receive |
+| :raised_hands: | mek | to make |
+| :speech_balloon: | sag | to say, to speak |
+| :thought_balloon: | den | to think |
+| :bow: | vis | to know |
+| :information_desk_person: | geb | to give |
+| :heart: | suk | to like |
+| :cupid: | ai | to love |
+| :fist: | hab | to have, to own |
+| :eyes: | se | to see, to watch, to read |
+| :ear: | hia | to hear, to listen |
+| :nose: | li | to smell |
+| :running: | geh | to move |
+| :pencil2: | kak | to write |
+| :mag: | luk | to search, to look for |
+| :game_die: | sob | to play, to spend time pleasantly |
+| :sleeping: | nem | to sleep |
+| :skull: | dai | to die, death |
+| :black_circle: | din | thing |
+| :man: | man | man |
+| :woman: | jos | woman |
+| :boy: | boi | boy |
+| :girl: | gel | girl |
+| :baby: | beb | baby |
+| :family: | fam | family |
+| :cop: | kop | policeman, policewoman |
+| :tongue: | es | to eat |
+| :book: | hon | book |
+| :cake: | kek | cake |
+| :pizza: | piz | pizza |
+| :meat_on_bone: | nik | meat |
+| :house: | hus | house, home |
+| :school: | sul | school |
+| :flower_playing_cards: | pic | picture |
+| :car: | ka | car |
+| :moneybag: | gel | money |
+| :japan: | lan | country |
+| :coffee: | kaf | coffee |
+| :chocolate_bar: | cok | chocolate |
+| :wrench: | tul | tool |
+| :statue_of_liberty: | fig | statue |
+| :bust_in_silhouette: | yan | person |
+| :tv: | vid | movie, video |
+| :notes: | muz | music |
+| :monkey: | af | animal, monkey |
+| :gb: | ein | Great Britain |
+| :de: | doi | Germany, German |
+| :jp: | nip | Japan, Japanese |
+| :fr: | bag | France, French |
+| :tokyo_tower: | go | big, tall |
+| :dash: | hay | fast |
+| :snail: | slo | slow, snail |
+| :muscle: | yoi | strong |
+| :anchor: | moi | heavy, sluggish |
+| :snowflake: | kal | cold, snow, year |
+| :ferris_wheel: | fan | fun, funny, entertaining |
+| :dizzy: | od | strange |
+| :sunny: | san | day, sun, sunny |
+| :crescent_moon: | yol | night |
+| :watch: | ji | time, hour |
+| :fire: | hot | fire, hot |
+| :ocean: | wet | water |
+| :symbols: | sim | symbol |
+| :1234: | num | number |
+| :name_badge: | nam | name, word |
+| :art: | cal | color |
 
 
 
